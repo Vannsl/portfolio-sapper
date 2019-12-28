@@ -1,6 +1,6 @@
 # Vannsl Portfolio
 
-[https://vannsl.netlify.com](https://vannsl.netlify.com);
+[https://vannsl.netlify.com](https://vannsl.netlify.com)
 
 built with [Sapper](https://github.com/sveltejs/sapper) and [TailwindCSS](https://tailwindcss.com/) deployed on [Netlify](https://www.netlify.com/).
 
