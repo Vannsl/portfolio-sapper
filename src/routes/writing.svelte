@@ -1,0 +1,104 @@
+<script>
+  import Header from "../components/Header.svelte";
+  import SmallHero from "../components/SmallHero.svelte";
+  import List from "../components/List.svelte";
+  import SimpleListItem from "../components/SimpleListItem.svelte";
+  import OutgoingLink from "../components/OutgoingLink.svelte";
+
+  export let publications = [
+    {
+      title: "Why it took me three weeks to implement a Login Form",
+      src: "https://dev.to/vannsl/why-it-took-me-three-weeks-to-implement-a-login-form-3aa8",
+      publisher: "dev.to",
+      date: "19/11/2019"
+    },
+    {
+      title: "E-Mail/Password Authentication with Firebase and Nuxt",
+      src: "https://dev.to/vannsl/e-mail-password-authentication-with-firebase-and-nuxt-292m",
+      publisher: "helpdev",
+      date: "19/10/2019"
+    },
+    {
+      title: "Einführung in Vue.js: Was steckt wirklich hinter dem progressiven Framework?",
+      src: "https://www.hosteurope.de/blog/einfuehrung-in-vue-js-was-steckt-wirklich-hinter-dem-progressiven-framework/",
+      publisher: "Host Europe",
+      date: "13/05/2019"
+    }
+  ]
+
+  export let interviews = [
+    {
+      title: "New Member for the PC: Vanessa Böhner",
+      src: "https://medium.com/@jskongress/new-member-for-the-pc-vanessa-b%C3%B6hner-b64bc7ef6f83",
+      publisher: "JS Kongress Munich",
+      date: "16/09/2019"
+    },
+    {
+      title: "Vue.js: A mix of Angular and React with MVVM and Virtual DOM",
+      src: "https://helpdev.eu/vue-js-a-mix-of-angular-and-react-with-mvvm-and-virtual-dom/",
+      publisher: "helpdev",
+      date: "29/01/2019"
+    },
+    {
+      title: "Vue.js: Ein Mix aus Angular und React mit MVVM und Virtual DOM",
+      src: "https://javascript-days.de/blog/vue-js-ein-mix-aus-angular-und-react-mit-mvvm-und-virtual-dom/",
+      publisher: "JS Days",
+      date: "12/06/2019"
+    }
+  ]
+</script>
+  
+<style global>
+  ul.listing,
+  ul.listing li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul.listing li {
+    position: relative;
+    padding-left: 36px;
+    margin-bottom: 20px;
+  }
+
+  ul.listing li:before {
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    content: "";
+    font-size: 1.2em;
+  }
+
+  ul.listing.publications li:before {
+    content: "📚";
+  }
+  ul.listing.interviews li:before {
+    content: "📰";
+  }
+</style>
+
+<svelte:head>
+  <title>Vannsl Writing</title>
+</svelte:head>
+
+<SmallHero segment="writing" type="cover"  />
+
+<Header title="publications" />
+<article class="container sm:w-6/12 my-10 mx-auto px-4">
+  <List type="publications">
+    {#each publications as item (item.date)}
+      <SimpleListItem {item} />
+    {/each}
+  </List>
+</article>
+
+<Header title="interviews" />
+<article class="container sm:w-6/12 my-10 mx-auto px-4">
+  <List type="interviews">
+    {#each interviews as item (item.date)}
+      <SimpleListItem {item} />
+    {/each}
+  </List>
+</article>
