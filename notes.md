@@ -65,3 +65,5 @@ App.svelte | index.svelte
 </style>
 
 (not scoped, but extra global)
+
+does not compile with html errors
