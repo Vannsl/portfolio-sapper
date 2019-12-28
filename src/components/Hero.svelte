@@ -1,15 +1,7 @@
-<style>
-  header {
-    height: auto;
-    padding: 120px 0 350px 0;
-    background-size: cover;
-    background-position-x: 50%;
-    background-position-y: 0%;
-    color: #fff;
-  }
-</style>
-
-<header style="background-image: url('vannsl-hero.jpg')">
+<header
+  class="h-auto md:pt-40 md:pb-80 pt-32 pb-48 px-2 bg-cover bg-bottom text-white"
+  style="background-image: url('vannsl-hero.jpg')"
+>
   <section class="text-center">
     <div
       class="mx-auto mb-10 w-auto border-4 border-solid border-white rounded-sm px-4 inline-block"

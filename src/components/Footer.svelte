@@ -1,4 +1,4 @@
-<footer class="py-4 bg-primary text-white text-center">
+<footer class="mt-20 py-4 bg-primary text-white text-center">
   <span>
     <a href="mailto:mail@vannsl.io">mail@vannsl.io</a>
   </span>
