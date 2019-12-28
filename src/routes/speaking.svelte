@@ -1,5 +1,7 @@
 <script>
+  import Article from "../components/Article.svelte";
   import Header from "../components/Header.svelte";
+  import HeadlineTertiary from "../components/HeadlineTertiary.svelte";
   import SmallHero from "../components/SmallHero.svelte";
   import List from "../components/List.svelte";
   import ListItem from "../components/ListItem.svelte";
@@ -308,24 +310,24 @@ export let mentoring = [
 <SmallHero segment="speaking" type="contain" />
 
 <Header title="talks" />
-<article class="container sm:w-6/12 my-10 mx-auto px-4">
-  <h3 class="mb-4 text-xl text-primary">upcoming</h3>
+<Article>
+  <HeadlineTertiary>upcoming</HeadlineTertiary>
   <List>
     {#each speakingUpcoming as item (item.date)}
       <ListItem {item} />
     {/each}
   </List>
-  <h3 class="mb-4 text-xl text-primary">past</h3>
+  <HeadlineTertiary>past</HeadlineTertiary>
   <List>
     {#each speakingPast as item (item.date)}
       <ListItem {item} />
     {/each}
   </List>
-</article>
+</Article>
 
 <Header title="podcasts & interviews" />
-<article class="container sm:w-6/12 my-10 mx-auto px-4">
-  <h3 class="mb-4 text-xl text-primary">podcasts</h3>
+<Article>
+  <HeadlineTertiary>podcasts</HeadlineTertiary>
   <List type="podcast">
     {#each podcasts as item (item.date)}
       <SimpleListItem {item} />
@@ -334,21 +336,21 @@ export let mentoring = [
       <OutgoingLink href="https://ausbaufaehig-podcast.de">Ausbaufähig - der Wein-Podcast</OutgoingLink><span class="font-light">Fun with Wine!</span>
     </li>
   </List>
-</article>
-<article class="container sm:w-6/12 my-10 mx-auto px-4">
-  <h3 class="mb-4 text-xl text-primary">interviews</h3>
+</Article>
+<Article>
+  <HeadlineTertiary>interviews</HeadlineTertiary>
   <List type="videointerviews">
     {#each interviews as item (item.date)}
       <SimpleListItem {item} />
     {/each}
   </List>
-</article>
+</Article>
 
 <Header title="mentoring & workshops" />
-<article class="container sm:w-6/12 my-10 mx-auto px-4">
+<Article>
   <List type="mentoring">
     {#each mentoring as item (item.date)}
       <ListItem {item} />
     {/each}
   </List>
-</article>
+</Article>

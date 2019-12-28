@@ -1,4 +1,5 @@
 <script>
+  import Article from "../components/Article.svelte";
   import Header from "../components/Header.svelte";
 </script>
 
@@ -21,7 +22,7 @@
 
 <Header title="about me" />
 
-<article class="my-10 px-4">
+<Article>
   <div class="circular-image" style="background-image:url('vannsl.jpg')"></div>
 
   <p class="container sm:w-6/12 mx-auto text-secondary">
@@ -39,4 +40,4 @@
     and accessible web applications.<br /><br />When I write code, I do it not
     for myself but for the next developer.
   </p>
-</article>
+</Article>

@@ -1,4 +1,5 @@
 <script>
+  import Article from "../components/Article.svelte";
   import Header from "../components/Header.svelte";
   import SmallHero from "../components/SmallHero.svelte";
   import List from "../components/List.svelte";
@@ -86,19 +87,19 @@
 <SmallHero segment="writing" type="cover"  />
 
 <Header title="publications" />
-<article class="container sm:w-6/12 my-10 mx-auto px-4">
+<Article>
   <List type="publications">
     {#each publications as item (item.date)}
       <SimpleListItem {item} />
     {/each}
   </List>
-</article>
+</Article>
 
 <Header title="interviews" />
-<article class="container sm:w-6/12 my-10 mx-auto px-4">
+<Article>
   <List type="interviews">
     {#each interviews as item (item.date)}
       <SimpleListItem {item} />
     {/each}
   </List>
-</article>
+</Article>

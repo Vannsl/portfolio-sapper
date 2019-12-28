@@ -4,7 +4,7 @@
 
 <style>
   nav {
-    border-bottom: 1px solid #98334933;
+    border-bottom: 1px solid hsla(347, 49.7%, 39.8%, 0.2);
   }
 
   /* clearfix */
