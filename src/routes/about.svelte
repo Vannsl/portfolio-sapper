@@ -25,7 +25,7 @@
 <Article>
   <div class="circular-image" style="background-image:url('vannsl.jpg')"></div>
 
-  <p class="container sm:w-6/12 mx-auto text-secondary">
+  <p class="text-secondary">
     Hi, nice to meet you!<br /><br />My name is Vanessa. I am a Web
     Developer.<br /><br />
     Currently, I am a Senior Product Engineer at SinnerSchrader. Since 2019 I am
