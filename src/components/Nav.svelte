@@ -5,13 +5,6 @@
 <style>
   nav {
     border-bottom: 1px solid #98334933;
-    font-weight: 300;
-    padding: 0 1em;
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
   }
 
   /* clearfix */
@@ -48,8 +41,8 @@
   }
 </style>
 
-<nav>
-  <ul>
+<nav class="px-1 font-normal">
+  <ul class="m-0 p-0">
     <li>
       <a class:selected="{segment === undefined}" href="." rel="prefetch"
         >home</a
