@@ -26,6 +26,14 @@
       location: "Prague",
       date: "28/01/2020",
       country: "czech-republic"
+    },
+    {
+      title: "Testing Techniques for Component Driven Development",
+      event: "Think About!",
+      eventSrc: "https://think-about.io/events/2020/talks/component_driven_development.html",
+      location: "Cologne",
+      date: "04/06/2020",
+      country: "germany"
     }
   ]
 
@@ -333,7 +341,7 @@ export let mentoring = [
       <SimpleListItem {item} />
     {/each}
     <li>
-      <OutgoingLink href="https://ausbaufaehig-podcast.de">Ausbaufähig - der Wein-Podcast</OutgoingLink><span class="font-light">Fun with Wine!</span>
+      <OutgoingLink href="https://ausbaufaehig-podcast.de">Ausbaufähig - der Wein-Podcast</OutgoingLink><span class="font-light">Fun with Wine!<br>2018 - 2019</span>
     </li>
   </List>
 </Article>
