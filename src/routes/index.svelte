@@ -33,10 +33,10 @@
         I build websites in terms of the look and feel and how users will
         interact with them across all common browsers and devices. I love to code, no matter if it is organized in a big monolith or in tiny micro-frontends. I use
         technologies like <span class="font-normal">HTML5</span>,
-        <span class="font-normal">CSS3 & SASS & TailwindCSS</span>,
-        <span class="font-normal">ES6 & TypeScript</span>, <span class="font-normal">Vue.js & nuxt.js & Svelte.js & web components</span>,
-        <span class="font-normal">Webpack</span> and
-        <span class="font-normal">Rollup</span>.
+        <span class="font-normal">CSS3, SASS and TailwindCSS</span>,
+        <span class="font-normal">ES6 and TypeScript</span>, <span class="font-normal">Vue.js, nuxt.js, Svelte.js and web components</span>,
+        <span class="font-normal">Webpack and RollUp</span> and
+        <span class="font-normal">Jest, Cypress and Puppeteer</span>.
     </section>
     <section slot="right">
       <Circular>
