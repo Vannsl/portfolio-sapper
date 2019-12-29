@@ -209,7 +209,7 @@ export let podcasts = [
     src: "https://workingdraft.de/367/",
     publisher: "Working Draft",
     episode: "Revision 367",
-    date: "29/11/2019"
+    date: "29/11/2018"
   }
 ]
 

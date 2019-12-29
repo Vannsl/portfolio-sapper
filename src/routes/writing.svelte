@@ -38,13 +38,13 @@
       title: "Vue.js: A mix of Angular and React with MVVM and Virtual DOM",
       src: "https://helpdev.eu/vue-js-a-mix-of-angular-and-react-with-mvvm-and-virtual-dom/",
       publisher: "helpdev",
-      date: "29/01/2019"
+      date: "29/01/2019 I"
     },
     {
       title: "Vue.js: Ein Mix aus Angular und React mit MVVM und Virtual DOM",
       src: "https://javascript-days.de/blog/vue-js-ein-mix-aus-angular-und-react-mit-mvvm-und-virtual-dom/",
       publisher: "JS Days",
-      date: "12/06/2019"
+      date: "29/01/2019 II"
     }
   ]
 </script>
