@@ -7,7 +7,7 @@
 <li class="{ item.country }">
   <span>{ item.title }</span>, {#if item.eventSrc && item.event }
   <OutgoingLink href="{item.eventSrc}">{item.event}</OutgoingLink>, {/if}
-  <span class="font-light">{ item.location }</span>
+  <span class="font-normal">{ item.location }</span>
   {#if item.videoSrc || item.slidesSrc || item.codebases }
   <p>
     {#if item.videoSrc }
@@ -20,5 +20,5 @@
     {/each}{/if}
   </p>
   {/if}
-  <p class="font-light">{ item.date }</p>
+  <p class="font-normal">{ item.date }</p>
 </li>

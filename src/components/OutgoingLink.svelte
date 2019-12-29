@@ -10,7 +10,7 @@
   }
   target="_blank"
   rel="nofollor, noreferrer, noopener"
-  class="font-light text-tertiary hover:underline"
+  class="font-normal text-tertiary hover:underline"
 >
   <slot></slot><OutgoingSvg alt=""></OutgoingSvg
 ></a>

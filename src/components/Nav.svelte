@@ -41,7 +41,7 @@
   }
 </style>
 
-<nav class="px-1 font-normal text-primary">
+<nav class="px-1 font-bold text-primary">
   <ul class="m-0 p-0">
     <li>
       <a class:selected="{segment === undefined}" href="." rel="prefetch"

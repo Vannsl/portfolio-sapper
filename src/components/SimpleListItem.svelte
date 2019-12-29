@@ -6,8 +6,8 @@
 
 <li>
   <OutgoingLink href="{ item.src }">{ item.title }</OutgoingLink>,
-  <span class="font-light"
+  <span class="font-normal"
     >{ item.publisher }{#if item.episode }, { item.episode }{/if}</span
   >
-  <p class="font-light">{ item.date }</p>
+  <p class="font-normal">{ item.date }</p>
 </li>
