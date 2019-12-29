@@ -7,6 +7,7 @@
   import ListItem from "../components/ListItem.svelte";
   import SimpleListItem from "../components/SimpleListItem.svelte";
   import OutgoingLink from "../components/OutgoingLink.svelte";
+  import Spacing from "../components/Spacing.svelte";
 
   export let speakingUpcoming = [
     {
@@ -353,6 +354,7 @@ export let mentoring = [
     {/each}
   </List>
 </Article>
+<Spacing></Spacing>
 
 <Header title="mentoring & workshops" />
 <Article>

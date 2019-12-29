@@ -5,6 +5,7 @@
   import Hero from '../components/Hero.svelte';
   import Grid from '../components/Grid.svelte';
   import HeadlineTertiary from '../components/HeadlineTertiary.svelte';
+  import Spacing from "../components/Spacing.svelte";
 </script>
 
 <svelte:head>
@@ -13,6 +14,7 @@
 
 <Hero/>
 
+<Spacing></Spacing>
 <Article>
   <section class="text-center">
     <p class="text-primary font-normal">
