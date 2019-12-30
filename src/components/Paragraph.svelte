@@ -3,6 +3,6 @@
   export let fontColor = isPrimary ? "text-primary" : "text-secondary";
 </script>
 
-<p class="{fontColor} md:text-center text-left font-normal">
+<p class="{fontColor} md:text-center text-left">
   <slot></slot>
 </p>
