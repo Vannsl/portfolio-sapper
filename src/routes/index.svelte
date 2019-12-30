@@ -11,6 +11,7 @@
 
 <svelte:head>
   <title>Vannsl - Vanessa Böhner Portfolio</title>
+  <meta name="description" content="Hi, I am Vannsl - a web developer.">
 </svelte:head>
 
 <Hero/>
