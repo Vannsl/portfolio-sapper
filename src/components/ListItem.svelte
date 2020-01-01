@@ -5,9 +5,13 @@
 </script>
 
 <li class="{ item.country }">
-  <span>{ item.title }</span>, {#if item.eventSrc && item.event }
-  <OutgoingLink href="{item.eventSrc}">{item.event}</OutgoingLink>, {/if}
-  <span class="font-normal">{ item.location }</span>
+  <span class="font-bold">{ item.title }</span>
+  <p>
+    {#if item.eventSrc && item.event }<OutgoingLink href="{item.eventSrc}"
+      >{item.event}</OutgoingLink
+    >
+    {/if}{ item.location }
+  </p>
   {#if item.videoSrc || item.slidesSrc || item.codebases }
   <p>
     {#if item.videoSrc }
@@ -20,5 +24,7 @@
     {/each}{/if}
   </p>
   {/if}
-  <p class="font-normal">{ item.date }</p>
+  <p>
+    { item.date }
+  </p>
 </li>

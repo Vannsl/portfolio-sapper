@@ -5,9 +5,9 @@
 </script>
 
 <li>
-  <OutgoingLink href="{ item.src }">{ item.title }</OutgoingLink>,
-  <span class="font-normal"
-    >{ item.publisher }{#if item.episode }, { item.episode }{/if}</span
-  >
-  <p class="font-normal">{ item.date }</p>
+  <OutgoingLink href="{ item.src }">{ item.title }</OutgoingLink>, {
+  item.publisher }{#if item.episode }, { item.episode }{/if}
+  <p>
+    { item.date }
+  </p>
 </li>

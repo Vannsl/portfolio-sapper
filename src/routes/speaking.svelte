@@ -248,7 +248,7 @@ export let mentoring = [
     slidesSrc: "https://slides.com/vannsl/nuxtjs-harry-potter#/"
   },
   {
-    title: "JSDay - half a day full of JavaScrip",
+    title: "JSDay - half a day full of JavaScript",
     event: "JSKongress Pre-Event @ SinnerSchrader",
     eventSrc: "https://www.meetup.com/de-DE/SinnerSchrader-Munich-Events/events/257780477/",
     location: "Munich",
@@ -342,7 +342,7 @@ export let mentoring = [
       <SimpleListItem {item} />
     {/each}
     <li>
-      <OutgoingLink href="https://ausbaufaehig-podcast.de">Ausbaufähig - der Wein-Podcast</OutgoingLink><span class="font-normal">Fun with Wine!<br>2018 - 2019</span>
+      <OutgoingLink href="https://ausbaufaehig-podcast.de">Ausbaufähig - der Wein-Podcast</OutgoingLink> Fun with Wine!<br>2018 - 2019
     </li>
   </List>
 </Article>
