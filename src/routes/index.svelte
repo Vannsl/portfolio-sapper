@@ -4,6 +4,7 @@
   import Circular from "../components/Circular.svelte";
   import Hero from '../components/Hero.svelte';
   import Grid from '../components/Grid.svelte';
+  import GridItem from "../components/GridItem.svelte";
   import HeadlineTertiary from '../components/HeadlineTertiary.svelte';
   import Spacing from "../components/Spacing.svelte";
   import Paragraph from "../components/Paragraph.svelte";
@@ -26,7 +27,7 @@
 </Article>
 <WideArticle>
   <Grid>
-    <section slot="left">
+    <GridItem>
         <Circular>
           &lang; / &rang;
         </Circular>
@@ -44,8 +45,8 @@
         <span class="font-bold">Webpack and RollUp</span> and
         <span class="font-bold">Jest, Cypress and Puppeteer</span>.
       </Paragraph>
-    </section>
-    <section slot="right">
+    </GridItem>
+    <GridItem>
       <Circular>
         IxD
       </Circular>
@@ -62,6 +63,6 @@
         Therefore I use techniques of the human computer interaction to create
         architectures and <span class="font-bold">user interfaces (UI)</span>.
       </Paragraph>
-    </section>
+    </GridItem>
   </Grid>
 </WideArticle>
