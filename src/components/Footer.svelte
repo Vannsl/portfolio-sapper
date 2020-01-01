@@ -3,5 +3,5 @@
     <a href="mailto:mail@vannsl.io">mail@vannsl.io</a>
   </span>
   <br />
-  <span>© Vanessa Böhner 2015-2019</span>
+  <span>© Vanessa Böhner 2015-2020</span>
 </footer>
