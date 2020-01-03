@@ -3,14 +3,14 @@
   export let segment;
 </script>
 
-<nav class="border border-primary-transparent px-1 text-primary">
+<nav class="flex sm:justify-between border border-primary-transparent text-primary sm:uppercase tracking-wider">
   <ul class="m-0 p-0 clearfix">
     <NavItem selected={segment === undefined} href=".">
-      home
+      vannsl
     </NavItem>
-    <NavItem selected={segment === "about"} href="about">
-      about
-    </NavItem>
+  </ul>
+
+  <ul class="m-0 p-0 clearfix">
     <NavItem selected={segment === "speaking"} href="speaking">
       speaking
     </NavItem>

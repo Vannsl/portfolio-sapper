@@ -21,7 +21,12 @@
 </style>
 
 <li class="block float-left">
-  <a class:selected="{selected}" {href} rel="prefetch" class="block py-4 px-2">
+  <a
+    class:selected="{selected}"
+    {href}
+    rel="prefetch"
+    class="block py-4 px-2 hover:bg-tertiary-transparent"
+  >
     <slot></slot>
   </a>
 </li>
