@@ -8,6 +8,7 @@
   import HeadlineTertiary from '../components/HeadlineTertiary.svelte';
   import Spacing from "../components/Spacing.svelte";
   import Paragraph from "../components/Paragraph.svelte";
+  import Header from "../components/Header.svelte";
 </script>
 
 <svelte:head>
@@ -66,3 +67,25 @@
     </GridItem>
   </Grid>
 </WideArticle>
+<Spacing></Spacing>
+<Header title="about me" />
+
+<Article>
+  <div class="circular-image" style="background-image: url('vannsl.jpg')"></div>
+
+  <p class="text-secondary">
+    Hi, nice to meet you!<br /><br />My name is Vanessa. I am a Web
+    Developer.<br /><br />
+    Currently, I am a Senior Product Engineer at SinnerSchrader. Since 2019 I am
+    the Vue Vixens Munich City Coordinator, helping women with their first
+    coding and speaking experiences. I am a member of the JS Kongress Program
+    Committee 2020.<br /><br />I created my first website at the age of ten.
+    Thanks, parents, for growing up in a village without any other children to
+    play with but having a computer with DOS/Win95 and internet access. I have
+    been passionate about web development ever since. I studied Media
+    Informatics with a focus on Human-Computer-Interaction. Now I am striving to
+    provide customers with the best experience possible while creating modern
+    and accessible web applications.<br /><br />When I write code, I do it not
+    for myself but for the next developer.
+  </p>
+</Article>

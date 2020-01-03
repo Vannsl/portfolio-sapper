@@ -6,13 +6,11 @@
 
 <li class="{ item.country }">
   <span class="font-bold">{ item.title }</span>
-  <p>
-    {#if item.eventSrc && item.event }<OutgoingLink href="{item.eventSrc}"
-      >{item.event}</OutgoingLink
-    >
-    {/if}{ item.location }
-  </p>
-  {#if item.videoSrc || item.slidesSrc || item.codebases }
+
+  {#if item.eventSrc && item.event }<OutgoingLink href="{item.eventSrc}"
+    >{item.event}</OutgoingLink
+  >
+  {/if} {#if item.videoSrc || item.slidesSrc || item.codebases }
   <p>
     {#if item.videoSrc }
     <OutgoingLink href="{item.videoSrc}">Video</OutgoingLink>
@@ -25,6 +23,6 @@
   </p>
   {/if}
   <p>
-    { item.date }
+    { item.date }, { item.location }
   </p>
 </li>
