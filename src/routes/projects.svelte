@@ -2,13 +2,14 @@
   import Grid from "../components/Grid.svelte";
   import GridItem from "../components/GridItem.svelte";
   import SmallHero from "../components/SmallHero.svelte";
+  import Spacing from "../components/Spacing.svelte";
 </script>
 
 <svelte:head>
   <title>Vannsl Projects</title>
 </svelte:head>
 
-<SmallHero segment="projects" extension="png" type="contain"  />
+<SmallHero segment="projects" extension="png" type="contain" />
 
 <Grid>
   <GridItem>
