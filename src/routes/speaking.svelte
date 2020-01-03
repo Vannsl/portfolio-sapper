@@ -343,7 +343,7 @@ export let mentoring = [
       <SimpleListItem {item} />
     {/each}
     <li>
-      <OutgoingLink href="https://ausbaufaehig-podcast.de">Ausbaufähig - der Wein-Podcast</OutgoingLink> Fun with Wine!<br>2018 - 2019
+      <OutgoingLink href="https://ausbaufaehig-podcast.de">Ausbaufähig - der Wein-Podcast</OutgoingLink> Fun with Wine!<br>2018 - today
     </li>
   </List>
 </Article>
