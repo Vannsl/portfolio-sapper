@@ -1,3 +1,3 @@
-<article class="container w-full mt-10 mx-auto px-4">
+<article class="container w-full mx-auto px-4 bg-white">
   <slot></slot>
 </article>

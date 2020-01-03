@@ -11,6 +11,12 @@ module.exports = {
         "primary-transparent": "hsla(347, 49.7%, 39.8%, 0.2)",
         "tertiary-transparent": "hsla(347, 49.7%, 39.8%, 0.2)"
       },
+      height: {
+        "300-px": "300px"
+      },
+      maxWidth: {
+        "300-px": "300px"
+      },
       padding: {
         80: "20rem"
       }

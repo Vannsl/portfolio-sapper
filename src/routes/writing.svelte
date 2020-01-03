@@ -85,8 +85,8 @@
 </svelte:head>
 
 <SmallHero segment="writing" type="cover"  />
-
 <Header title="publications" />
+<Spacing></Spacing>
 <Article>
   <List type="publications">
     {#each publications as item (item.date)}
@@ -94,8 +94,8 @@
     {/each}
   </List>
 </Article>
-
 <Header title="interviews" />
+<Spacing></Spacing>
 <Article>
   <List type="interviews">
     {#each interviews as item (item.date)}
@@ -103,3 +103,6 @@
     {/each}
   </List>
 </Article>
+
+<Spacing></Spacing>
+<Spacing></Spacing>

@@ -317,8 +317,8 @@ export let mentoring = [
 </svelte:head>
 
 <SmallHero segment="speaking" type="contain" />
-
 <Header title="talks" />
+<Spacing></Spacing>
 <Article>
   <HeadlineTertiary>upcoming</HeadlineTertiary>
   <List>
@@ -334,8 +334,8 @@ export let mentoring = [
   </List>
 </Article>
 <Spacing></Spacing>
-
 <Header title="podcasts & interviews" />
+<Spacing></Spacing>
 <Article>
   <HeadlineTertiary>podcasts</HeadlineTertiary>
   <List type="podcast">
@@ -356,8 +356,8 @@ export let mentoring = [
   </List>
 </Article>
 <Spacing></Spacing>
-
 <Header title="mentoring & workshops" />
+<Spacing></Spacing>
 <Article>
   <List type="mentoring">
     {#each mentoring as item (item.date)}
@@ -365,3 +365,6 @@ export let mentoring = [
     {/each}
   </List>
 </Article>
+
+<Spacing></Spacing>
+<Spacing></Spacing>
