@@ -21,22 +21,24 @@
   }
 
   .text-transition {
-    animation: fade 3s;
+    animation: fade 2s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
   }
 
   @keyframes fade {
     0% {
-      opacity: 1;
+      opacity: 0;
     }
     100% {
-      opacity: 0;
+      opacity: 1;
     }
   }
 </style>
 
 <header class="w-full h-auto">
   <div class="clipped w-full h-screen py-32 px-2 bg-gradient-full text-white">
-    <section class="text-transition text-center">
+    <section class="text-transition opacity-0 text-center">
       <div
         class="mx-auto mb-10 w-auto border-4 border-solid border-white rounded-sm px-4 inline-block"
       >
