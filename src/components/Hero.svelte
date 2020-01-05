@@ -1,12 +1,26 @@
 <style>
   .clipped {
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+    background-size: 400% 400%;
+    animation: gradientBG 7s ease infinite;
+  }
+
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
 </style>
 
 <header class="w-full h-auto">
   <div
-    class="clipped w-full h-screen py-32 px-2 bg-gradient-secondary-primary text-white"
+    class="clipped w-full h-screen py-32 px-2 bg-gradient-secondary-primary-secondary-tertiary text-white"
   >
     <section class="text-center">
       <div

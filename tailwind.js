@@ -24,7 +24,12 @@ module.exports = {
       }
     },
     gradients: theme => ({
-      "secondary-primary": [theme("colors.secondary"), theme("colors.primary")]
+      "secondary-primary-secondary-tertiary": [
+        theme("colors.secondary"),
+        theme("colors.primary"),
+        theme("colors.tertiary"),
+        theme("colors.secondary")
+      ]
     })
   },
   variants: {},
@@ -32,11 +37,14 @@ module.exports = {
     function({ addUtilities, e, theme }) {
       const gradients = theme("gradients", {});
 
-      const utilities = _.map(gradients, ([start, end], name) => ({
-        [`.bg-gradient-${e(name)}`]: {
-          backgroundImage: `linear-gradient(to right, ${start}, ${end})`
-        }
-      }));
+      const utilities = _.map(
+        gradients,
+        ([start, betweenStart, betweenEnd, end], name) => ({
+          [`.bg-gradient-${e(name)}`]: {
+            backgroundImage: `linear-gradient(-45deg, ${start}, ${betweenStart}, ${betweenEnd}, ${end})`
+          }
+        })
+      );
 
       addUtilities(utilities);
     }
