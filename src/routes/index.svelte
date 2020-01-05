@@ -72,7 +72,7 @@
 <Spacing></Spacing>
 <Spacing></Spacing>
 <Header title="about me" />
-<div class="bg-gradient-opacity-200">
+<div class="bg-gradient-opacity-200" style="clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%)">
   <Article>
     <Spacing></Spacing>
     <div class="sm:my-10 my-5 mx-auto border rounded-full w-full max-w-300-px h-300-px bg-center bg-cover shadow-md" style="background-image: url('vannsl.jpg')"></div>
