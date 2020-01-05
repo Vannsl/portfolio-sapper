@@ -14,10 +14,6 @@
 
 <style>
   @responsive {
-    .clipped-5 {
-      clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%)
-    }
-
     .clipped-10 {
       clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%)
     }
@@ -94,7 +90,7 @@
     <Spacing></Spacing>
     <div class="sm:my-10 my-5 mx-auto border rounded-full w-full max-w-300-px h-300-px bg-center bg-cover shadow-md" style="background-image: url('vannsl.jpg')"></div>
 
-    <p class="text-secondary">
+    <p class="md:px-4 text-secondary">
       Hi, nice to meet you!<br /><br />My name is Vanessa. I am a Web
       Developer.<br /><br />
       Currently, I am a Senior Product Engineer at SinnerSchrader. Since 2019 I am
