@@ -22,7 +22,7 @@
 
   .text-transition {
     animation: fade 2s;
-    animation-delay: 1s;
+    animation-delay: 0.2s;
   }
 
   @keyframes fade {
