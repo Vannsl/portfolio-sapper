@@ -7,13 +7,6 @@ describe("Vannsl", () => {
     cy.contains("h1", "Vanessa Böhner");
   });
 
-  it("navigates to /about", () => {
-    cy.get("nav a")
-      .contains("about")
-      .click();
-    cy.url().should("include", "/about");
-  });
-
   it("navigates to /speaking", () => {
     cy.get("nav a")
       .contains("speaking")
