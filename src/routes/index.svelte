@@ -68,12 +68,13 @@
   </Grid>
 </WideArticle>
 <Spacing></Spacing>
+<Spacing></Spacing>
+<Spacing></Spacing>
 <Header title="about me" />
-
 <div class="bg-primary-transparent">
   <Article>
     <Spacing></Spacing>
-    <div class="my-10 mx-auto border rounded-full w-full max-w-300-px h-300-px bg-center bg-cover shadow-md" style="background-image: url('vannsl.jpg')"></div>
+    <div class="sm:my-10 my-5 mx-auto border rounded-full w-full max-w-300-px h-300-px bg-center bg-cover shadow-md" style="background-image: url('vannsl.jpg')"></div>
 
     <p class="text-secondary">
       Hi, nice to meet you!<br /><br />My name is Vanessa. I am a Web
