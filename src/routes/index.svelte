@@ -27,6 +27,7 @@
   </section>
 </Article>
 <WideArticle>
+  <Spacing></Spacing>
   <Grid>
     <GridItem>
         <Circular>

@@ -17,13 +17,26 @@
       background-position: 0% 50%;
     }
   }
+
+  .text-transition {
+    animation: fade 1s;
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 </style>
 
 <header class="w-full h-auto">
   <div
     class="clipped w-full h-screen py-32 px-2 bg-gradient-secondary-primary-secondary-tertiary text-white"
   >
-    <section class="text-center">
+    <section class="text-transition text-center">
       <div
         class="mx-auto mb-10 w-auto border-4 border-solid border-white rounded-sm px-4 inline-block"
       >
