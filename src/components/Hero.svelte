@@ -1,6 +1,5 @@
 <header
-  class="h-auto md:pt-40 md:pb-80 pt-32 pb-48 px-2 bg-cover bg-bottom text-white"
-  style="background-image: url('vannsl-hero.jpg')"
+  class="h-auto md:pt-40 md:pb-80 pt-32 pb-48 px-2 bg-cover bg-bottom text-white bg-secondary"
 >
   <section class="text-center">
     <div
