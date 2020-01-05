@@ -72,7 +72,7 @@
 <Spacing></Spacing>
 <Spacing></Spacing>
 <Header title="about me" />
-<div class="bg-primary-transparent">
+<div class="bg-gradient-opacity-200">
   <Article>
     <Spacing></Spacing>
     <div class="sm:my-10 my-5 mx-auto border rounded-full w-full max-w-300-px h-300-px bg-center bg-cover shadow-md" style="background-image: url('vannsl.jpg')"></div>

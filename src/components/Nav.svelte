@@ -3,7 +3,7 @@
   export let segment;
 </script>
 
-<nav class="flex sm:justify-between border border-tertiary-transparent text-primary sm:uppercase tracking-wider">
+<nav class="flex sm:justify-between border border-tertiaryopacity-200 text-primary sm:uppercase tracking-wider">
   <ul class="m-0 p-0 clearfix">
     <NavItem selected={segment === undefined} href=".">
       vannsl

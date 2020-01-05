@@ -25,7 +25,7 @@
     class:selected="{selected}"
     {href}
     rel="prefetch"
-    class="block py-4 px-2 hover:bg-tertiary-transparent hover:cursor-pointer"
+    class="block py-4 px-2 hover:bg-tertiaryopacity-200 hover:cursor-pointer"
   >
     <slot></slot>
   </a>

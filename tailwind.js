@@ -4,14 +4,15 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        double: "0 0 0 5px #983349"
+        double: "0 0 0 5px hsla(347, 49.7%, 39.8%, 1)"
       },
       colors: {
-        primary: "#626894",
-        secondary: "#334998",
-        tertiary: "#983349",
-        "primary-transparent": "hsla(232.7, 20.3%, 48.2%, 0.2)",
-        "tertiary-transparent": "hsla(347, 49.7%, 39.8%, 0.2)"
+        primary: "hsla(232.7, 20.3%, 48.2%, 1)",
+        secondary: "hsla(227, 49.7%, 39.8%, 1)",
+        tertiary: "hsla(347, 49.7%, 39.8%, 1)",
+        "primaryopacity-200": "hsla(232.7, 20.3%, 48.2%, 0.2)",
+        "secondaryopacity-200": "hsla(227, 49.7%, 39.8%, 0.2)",
+        "tertiaryopacity-200": "hsla(347, 49.7%, 39.8%, 0.2)"
       },
       height: {
         "300-px": "300px"
@@ -24,11 +25,17 @@ module.exports = {
       }
     },
     gradients: theme => ({
-      "secondary-primary-tertiary-primary": [
+      full: [
         theme("colors.secondary"),
         theme("colors.primary"),
         theme("colors.tertiary"),
         theme("colors.primary")
+      ],
+      "opacity-200": [
+        theme("colors.secondaryopacity-200"),
+        theme("colors.primaryopacity-200"),
+        theme("colors.tertiaryopacity-200"),
+        theme("colors.primaryopacity-200")
       ]
     })
   },
