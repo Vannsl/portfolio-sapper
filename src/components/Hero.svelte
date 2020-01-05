@@ -21,16 +21,15 @@
   }
 
   .text-transition {
-    animation: fade 2s;
-    animation-delay: 0.2s;
+    animation: fade 3s;
   }
 
   @keyframes fade {
     0% {
-      opacity: 0;
+      opacity: 1;
     }
     100% {
-      opacity: 1;
+      opacity: 0;
     }
   }
 </style>
