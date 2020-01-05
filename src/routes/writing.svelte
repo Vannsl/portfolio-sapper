@@ -9,6 +9,12 @@
 
   export let publications = [
     {
+      title: "Statically generated website with Svelte and Sapper",
+      src: "https://dev.to/vannsl/statically-generated-website-with-svelte-and-sapper-5bi7",
+      publisher: "dev.to",
+      date: "05/01/2020"
+    },
+    {
       title: "Why it took me three weeks to implement a Login Form",
       src: "https://dev.to/vannsl/why-it-took-me-three-weeks-to-implement-a-login-form-3aa8",
       publisher: "dev.to",
