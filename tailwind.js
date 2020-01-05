@@ -41,7 +41,7 @@ module.exports = {
         gradients,
         ([start, betweenStart, betweenEnd, end], name) => ({
           [`.bg-gradient-${e(name)}`]: {
-            backgroundImage: `linear-gradient(-45deg, ${start}, ${betweenStart}, ${betweenEnd}, ${end})`
+            backgroundImage: `linear-gradient(-135deg, ${start}, ${betweenStart}, ${betweenEnd}, ${end})`
           }
         })
       );
