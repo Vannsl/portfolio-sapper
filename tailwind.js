@@ -24,11 +24,11 @@ module.exports = {
       }
     },
     gradients: theme => ({
-      "secondary-primary-secondary-tertiary": [
+      "secondary-primary-tertiary-primary": [
         theme("colors.secondary"),
         theme("colors.primary"),
         theme("colors.tertiary"),
-        theme("colors.secondary")
+        theme("colors.primary")
       ]
     })
   },

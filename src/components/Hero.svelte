@@ -3,18 +3,20 @@
     clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
     background-size: 400% 400%;
+    background-position: 50% 0%;
     animation: gradientBG 6s cubic-bezier(0.17, 0.67, 0.83, 0.67) infinite;
+    animation-delay: 2s;
   }
 
   @keyframes gradientBG {
     0% {
-      background-position: 0% 50%;
+      background-position: 50% 0%;
     }
     50% {
-      background-position: 100% 50%;
+      background-position: 50% 100%;
     }
     100% {
-      background-position: 0% 50%;
+      background-position: 50% 0%;
     }
   }
 
@@ -34,7 +36,7 @@
 
 <header class="w-full h-auto">
   <div
-    class="clipped w-full h-screen py-32 px-2 bg-gradient-secondary-primary-secondary-tertiary text-white"
+    class="clipped w-full h-screen py-32 px-2 bg-gradient-secondary-primary-tertiary-primary text-white"
   >
     <section class="text-transition text-center">
       <div
