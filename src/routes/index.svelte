@@ -9,6 +9,7 @@
   import Spacing from "../components/Spacing.svelte";
   import Paragraph from "../components/Paragraph.svelte";
   import Header from "../components/Header.svelte";
+  import OutgoingLink from "../components/OutgoingLink.svelte";
 </script>
 
 <svelte:head>
@@ -89,8 +90,9 @@
       been passionate about web development ever since. I studied Media
       Informatics with a focus on Human-Computer-Interaction. Now I am striving to
       provide customers with the best experience possible while creating modern
-      and accessible web applications.<br /><br />When I write code, I do it not
-      for myself but for the next developer.
+      and accessible web applications. When I write code, I do it not
+      for myself but for the next developer. <br><br>
+      Feel free to send me a message on <OutgoingLink href="https://twitter.com/vannsl">Twitter</OutgoingLink>.
     </p>
     <Spacing></Spacing>
     <Spacing></Spacing>
