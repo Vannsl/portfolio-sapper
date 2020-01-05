@@ -3,7 +3,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
     background-size: 400% 400%;
-    animation: gradientBG 7s ease infinite;
+    animation: gradientBG 6s cubic-bezier(0.17, 0.67, 0.83, 0.67) infinite;
   }
 
   @keyframes gradientBG {
