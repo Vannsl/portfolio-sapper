@@ -12,6 +12,22 @@
   import OutgoingLink from "../components/OutgoingLink.svelte";
 </script>
 
+<style>
+  @responsive {
+    .clipped-5 {
+      clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%)
+    }
+
+    .clipped-10 {
+      clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%)
+    }
+
+    .clipped-20 {
+      clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%)
+    }
+  }
+</style>
+
 <svelte:head>
   <title>Vannsl - Vanessa Böhner Portfolio</title>
   <meta name="description" content="Hi, I am Vannsl - a web developer.">
@@ -73,7 +89,7 @@
 <Spacing></Spacing>
 <Spacing></Spacing>
 <Header title="about me" />
-<div class="bg-gradient-opacity-200" style="clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%)">
+<div class="xl:clipped-20 md:clipped-10 bg-gradient-opacity-200">
   <Article>
     <Spacing></Spacing>
     <div class="sm:my-10 my-5 mx-auto border rounded-full w-full max-w-300-px h-300-px bg-center bg-cover shadow-md" style="background-image: url('vannsl.jpg')"></div>
