@@ -1,6 +1,7 @@
 <style>
   .clipped {
     clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
     background-size: 400% 400%;
     animation: gradientBG 7s ease infinite;
   }
