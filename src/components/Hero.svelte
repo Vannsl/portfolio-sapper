@@ -21,7 +21,7 @@
   }
 
   .text-transition {
-    animation: fade 1s;
+    animation: fade 2s;
   }
 
   @keyframes fade {
@@ -42,14 +42,16 @@
       <div
         class="mx-auto mb-10 w-auto border-4 border-solid border-white rounded-sm px-4 inline-block"
       >
-        <span class="text-5xl uppercase">
+        <span class="text-5xl uppercase font-bold">
           Who am I
         </span>
       </div>
-      <h1 class="mt-10 text-5xl uppercase tracking-widest">Vanessa Böhner</h1>
+      <h1 class="mt-10 text-5xl uppercase tracking-widest font-bold">
+        Vanessa Böhner
+      </h1>
       <p>
-        <span class="text-4xl tracking-wider">frontend developer</span><br />
-        <em class="text-4xl">munich, germany</em>
+        <span class="text-3xl tracking-wider">frontend developer</span><br />
+        <em class="text-3xl">munich, germany</em>
       </p>
     </section>
   </div>
