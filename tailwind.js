@@ -1,3 +1,5 @@
+const _ = require("lodash");
+
 module.exports = {
   theme: {
     extend: {
@@ -20,8 +22,23 @@ module.exports = {
       padding: {
         80: "20rem"
       }
-    }
+    },
+    gradients: theme => ({
+      "secondary-primary": [theme("colors.secondary"), theme("colors.primary")]
+    })
   },
   variants: {},
-  plugins: []
+  plugins: [
+    function({ addUtilities, e, theme }) {
+      const gradients = theme("gradients", {});
+
+      const utilities = _.map(gradients, ([start, end], name) => ({
+        [`.bg-gradient-${e(name)}`]: {
+          backgroundImage: `linear-gradient(to right, ${start}, ${end})`
+        }
+      }));
+
+      addUtilities(utilities);
+    }
+  ]
 };
