@@ -1,7 +1,7 @@
 <svg
   class="inline fill-current -mt-1 mx-1"
   style="enable-background:new 0 0 50 50;"
-  width="12px"
+  width=".8em"
   version="1.1"
   viewBox="0 0 50 50"
   xml:space="preserve"

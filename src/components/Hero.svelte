@@ -4,11 +4,11 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
     background-size: 400% 400%;
     background-position: 50% 0%;
-    animation: gradientBG 6s cubic-bezier(0.17, 0.67, 0.83, 0.67) infinite;
+    animation: gradient 6s cubic-bezier(0.17, 0.67, 0.83, 0.67) infinite;
     animation-delay: 2s;
   }
 
-  @keyframes gradientBG {
+  @keyframes gradient {
     0% {
       background-position: 50% 0%;
     }

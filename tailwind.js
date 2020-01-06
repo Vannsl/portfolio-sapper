@@ -10,9 +10,10 @@ module.exports = {
         primary: "hsla(232.7, 20.3%, 48.2%, 1)",
         secondary: "hsla(227, 49.7%, 39.8%, 1)",
         tertiary: "hsla(347, 49.7%, 39.8%, 1)",
-        "primaryopacity-200": "hsla(232.7, 20.3%, 48.2%, 0.2)",
-        "secondaryopacity-200": "hsla(227, 49.7%, 39.8%, 0.2)",
-        "tertiaryopacity-200": "hsla(347, 49.7%, 39.8%, 0.2)"
+        "primary-opacity-200": "hsla(232.7, 20.3%, 48.2%, 0.2)",
+        "secondary-opacity-200": "hsla(227, 49.7%, 39.8%, 0.2)",
+        "tertiary-opacity-200": "hsla(347, 49.7%, 39.8%, 0.2)",
+        transparent: "hsla(0, 0%, 100%, 0.1)"
       },
       height: {
         "300-px": "300px"
@@ -22,6 +23,9 @@ module.exports = {
       },
       padding: {
         80: "20rem"
+      },
+      width: {
+        "90vw": "90vw"
       }
     },
     gradients: theme => ({
@@ -32,10 +36,10 @@ module.exports = {
         theme("colors.primary")
       ],
       "opacity-200": [
-        theme("colors.secondaryopacity-200"),
-        theme("colors.primaryopacity-200"),
-        theme("colors.tertiaryopacity-200"),
-        theme("colors.primaryopacity-200")
+        theme("colors.secondary-opacity-200"),
+        theme("colors.primary-opacity-200"),
+        theme("colors.tertiary-opacity-200"),
+        theme("colors.primary-opacity-200")
       ]
     })
   },

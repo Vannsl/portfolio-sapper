@@ -1,1 +1,1 @@
-<div class="w-full h-12 bgopacity-200" />
+<div class="w-full h-12 bg-transparent" />
