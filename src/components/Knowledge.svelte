@@ -11,7 +11,7 @@
 
 <Article>
   <section>
-    <p class="md:text-center text-left text-primary">
+    <p class="md:text-center text-left text-secondary">
       The era of the desktop web is over. The era of the mobile web will end
       soon. The embedded web era will come. Digital products in the web have to
       be designed and developed for the best user experience. That's what I do.
@@ -28,7 +28,7 @@
       <HeadlineTertiary>
         Web Development
       </HeadlineTertiary>
-      <Paragraph isPrimary="{true}">
+      <Paragraph isTertiary="{true}">
         I build websites in terms of the look and feel and how users will
         interact with them across all common browsers and devices. I love to
         code, no matter if it is organized in a big monolith or in tiny

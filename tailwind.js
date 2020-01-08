@@ -4,15 +4,22 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        double: "0 0 0 5px hsla(347, 49.7%, 39.8%, 1)"
+        double: "0 0 0 5px hsla(230.9, 98.8%, 66.1%, 1)"
       },
       colors: {
-        primary: "hsla(232.7, 20.3%, 48.2%, 1)",
-        secondary: "hsla(227, 49.7%, 39.8%, 1)",
-        tertiary: "hsla(347, 49.7%, 39.8%, 1)",
-        "primary-opacity-200": "hsla(232.7, 20.3%, 48.2%, 0.2)",
-        "secondary-opacity-200": "hsla(227, 49.7%, 39.8%, 0.2)",
-        "tertiary-opacity-200": "hsla(347, 49.7%, 39.8%, 0.2)",
+        primary: "hsla(339.6, 82.2%, 51.6%, 1)",
+        secondary: "hsla(230.9, 98.8%, 66.1%, 1)",
+        tertiary: "hsla(336.3, 78%, 42.8%, 1)",
+        dark: "hsla(0, 0%, 12.9%, 1)",
+        "primary-opacity-200": "hsla(3339.6, 82.2%, 51.6%, 0.2)",
+        "secondary-opacity-200": "hsla(230.9, 98.8%, 66.1%, 0.2)",
+        "tertiary-opacity-200": "hsla(336.3, 78%, 42.8%, 0.2)",
+        // primary: "hsla(232.7, 20.3%, 48.2%, 1)",
+        // secondary: "hsla(227, 49.7%, 39.8%, 1)",
+        // tertiary: "hsla(347, 49.7%, 39.8%, 1)",
+        // "primary-opacity-200": "hsla(232.7, 20.3%, 48.2%, 0.2)",
+        // "secondary-opacity-200": "hsla(227, 49.7%, 39.8%, 0.2)",
+        // "tertiary-opacity-200": "hsla(347, 49.7%, 39.8%, 0.2)",
         transparent: "hsla(0, 0%, 100%, 0.1)"
       },
       height: {
@@ -30,10 +37,10 @@ module.exports = {
     },
     gradients: theme => ({
       full: [
-        theme("colors.secondary"),
-        theme("colors.primary"),
         theme("colors.tertiary"),
-        theme("colors.primary")
+        theme("colors.primary"),
+        theme("colors.secondary"),
+        theme("colors.tertiary")
       ],
       "opacity-200": [
         theme("colors.secondary-opacity-200"),

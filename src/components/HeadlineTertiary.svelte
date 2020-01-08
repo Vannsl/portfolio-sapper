@@ -1,3 +1,3 @@
-<h3 class="mb-4 text-primary tracking-wider">
+<h3 class="mb-4 text-secondary tracking-wider">
   <slot></slot>
 </h3>

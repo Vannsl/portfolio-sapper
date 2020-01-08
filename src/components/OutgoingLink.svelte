@@ -2,7 +2,7 @@
   import OutgoingSvg from "./OutgoingSvg.svelte";
 
   export let href;
-  export let color = "tertiary";
+  export let color = "primary";
 </script>
 
 <a

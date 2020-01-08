@@ -5,7 +5,7 @@
 <style></style>
 
 <div class="relative w-full h-auto">
-  <div class="w-full h-screen py-48 px-10 bg-tertiary text-white">
+  <div class="w-full h-screen py-48 px-10 bg-secondary text-white">
     <section class="text-center">
       <p class="relative sm:text-3xl text-xl tracking-wider z-10">
         <strong>The code of this web page is open source.</strong><br />

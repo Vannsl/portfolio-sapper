@@ -1,4 +1,4 @@
-<footer class="pt-4 pb-8 bg-primary text-white text-center">
+<footer class="pt-4 pb-8 bg-tertiary text-white text-center">
   <span>
     <a href="mailto:mail@vannsl.io">mail@vannsl.io</a>
   </span>
