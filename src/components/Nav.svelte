@@ -11,6 +11,9 @@
   </ul>
 
   <ul class="m-0 p-0 clearfix">
+    <NavItem selected={segment === "about"} href="about">
+      about
+    </NavItem>
     <NavItem selected={segment === "speaking"} href="speaking">
       speaking
     </NavItem>

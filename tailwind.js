@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        double: "0 0 0 5px hsl(35.8, 100%, 50%)"
+        double: "0 0 0 5px hsl(336.3, 78%, 42.8%)"
       },
       colors: {
         primary: "hsl(339.6, 82.2%, 51.6%)",
@@ -30,7 +30,11 @@ module.exports = {
         "90vw": "90vw"
       }
     },
-    gradients: theme => ({
+    gradientsTwoSteps: theme => ({
+      "secondary-primary": [theme("colors.secondary"), theme("colors.primary")],
+      "tertiary-primary": [theme("colors.tertiary"), theme("colors.primary")]
+    }),
+    gradientsFourSteps: theme => ({
       full: [
         theme("colors.tertiary"),
         theme("colors.primary"),
@@ -48,7 +52,7 @@ module.exports = {
   variants: {},
   plugins: [
     function({ addUtilities, e, theme }) {
-      const gradients = theme("gradients", {});
+      const gradients = theme("gradientsFourSteps", {});
 
       const utilities = _.map(
         gradients,
@@ -58,6 +62,17 @@ module.exports = {
           }
         })
       );
+
+      addUtilities(utilities);
+    },
+    function({ addUtilities, e, theme }) {
+      const gradients = theme("gradientsTwoSteps", {});
+
+      const utilities = _.map(gradients, ([start, end], name) => ({
+        [`.bg-gradient-${e(name)}`]: {
+          backgroundImage: `linear-gradient(0deg, ${start}, ${end})`
+        }
+      }));
 
       addUtilities(utilities);
     }

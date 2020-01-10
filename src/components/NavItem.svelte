@@ -14,7 +14,7 @@
     content: "";
     width: calc(100% - 1em);
     height: 2px;
-    background-color: #983349;
+    background-color: hsl(336.3, 78%, 42.8%);
     display: block;
     bottom: -1px;
   }

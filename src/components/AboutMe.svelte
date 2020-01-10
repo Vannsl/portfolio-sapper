@@ -6,12 +6,12 @@
 </script>
 
 <Header title="about me" />
-<div class="xl:clipped-20 lg:clipped-10 md:clipped-10 bg-gradient-flecked">
+<div class="xl:clipped-20 lg:clipped-10 md:clipped-10">
   <Article background="sm:bg-white">
     <Spacing></Spacing>
     <div class="sm:my-10 my-5 mx-auto border rounded-full w-full max-w-300-px h-300-px bg-center bg-cover shadow-md" style="background-image: url('vannsl.jpg')"></div>
 
-    <p class="md:px-4 sm:text-tertiary text-white">
+    <p class="md:px-4 text-tertiary">
       Hi, nice to meet you!<br /><br />My name is Vanessa. I am a Web
       Developer.<br /><br />
       Currently, I am a Senior Product Engineer at SinnerSchrader. Since 2019 I am
@@ -23,7 +23,7 @@
       provide customers with the best experience possible while creating modern
       and accessible web applications. When I write code, I do it not
       for myself but for the next developer. <br><br>
-      Feel free to send me a message on <OutgoingLink href="https://twitter.com/vannsl" color="sm:text-link text-white">Twitter</OutgoingLink>.
+      Feel free to send me a message on <OutgoingLink href="https://twitter.com/vannsl">Twitter</OutgoingLink>.
     </p>
     <Spacing></Spacing>
     <Spacing></Spacing>
