@@ -5,14 +5,14 @@
 <style></style>
 
 <div class="relative w-full h-auto">
-  <div class="w-full h-screen py-48 px-10 bg-secondary text-white">
+  <div class="w-full h-screen py-48 px-10 bg-secondary text-dark">
     <section class="text-center">
       <p class="relative sm:text-3xl text-xl tracking-wider z-10">
         <strong>The code of this web page is open source.</strong><br />
         Feel free to use it.
         <br /><br />
         <OutgoingLink
-          color="text-white"
+          color="text-dark"
           href="https://github.com/Vannsl/portfolio-sapper"
         >
           Open GitHub Repository
