@@ -46,4 +46,4 @@
   }
 </style>
 
-<div class="line absolute top-0 w-px h-full bg-transparent overflow-hidden" />
+<div class="line absolute top-0 w-px h-full bg-none overflow-hidden" />

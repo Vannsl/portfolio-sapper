@@ -10,6 +10,6 @@
   }
 </style>
 
-<ul class="{type} listing text-secondary">
+<ul class="{type} listing text-tertiary">
   <slot></slot>
 </ul>

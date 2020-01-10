@@ -12,7 +12,7 @@
         Feel free to use it.
         <br /><br />
         <OutgoingLink
-          color="white"
+          color="text-white"
           href="https://github.com/Vannsl/portfolio-sapper"
         >
           Open GitHub Repository

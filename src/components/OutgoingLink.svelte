@@ -2,7 +2,7 @@
   import OutgoingSvg from "./OutgoingSvg.svelte";
 
   export let href;
-  export let color = "primary";
+  export let color = "text-link";
 </script>
 
 <a
@@ -11,7 +11,7 @@
   }
   target="_blank"
   rel="nofollor, noreferrer, noopener"
-  class="text-{color} hover:underline"
+  class="{color} hover:underline"
 >
   <slot></slot><OutgoingSvg alt=""></OutgoingSvg
 ></a>
