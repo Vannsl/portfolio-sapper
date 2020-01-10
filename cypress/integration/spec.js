@@ -20,11 +20,4 @@ describe("Vannsl", () => {
       .click();
     cy.url().should("include", "/writing");
   });
-
-  it("navigates to /projects", () => {
-    cy.get("nav a")
-      .contains("projects")
-      .click();
-    cy.url().should("include", "/projects");
-  });
 });

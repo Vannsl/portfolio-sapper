@@ -17,8 +17,5 @@
     <NavItem selected={segment === "writing"} href="writing">
       writing
     </NavItem>
-    <NavItem selected={segment === "projects"} href="projects">
-      projects
-    </NavItem>
   </ul>
 </nav>
