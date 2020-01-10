@@ -17,9 +17,7 @@
       Currently, I am a Senior Product Engineer at SinnerSchrader. Since 2019 I am
       the Vue Vixens Munich City Coordinator, helping women with their first
       coding and speaking experiences. I am a member of the JS Kongress Program
-      Committee 2020.<br /><br />I created my first website at the age of ten.
-      Thanks, parents, for growing up in a village without any other children to
-      play with but having a computer with DOS/Win95 and internet access. I have
+      Committee 2020.<br /><br />I created my first website at the age of ten. I have
       been passionate about web development ever since. I studied Media
       Informatics with a focus on Human-Computer-Interaction. Now I am striving to
       provide customers with the best experience possible while creating modern
