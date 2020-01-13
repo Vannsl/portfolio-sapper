@@ -14,13 +14,13 @@
     font-display: auto;
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/Lato-Medium.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/Lato-Regular.eot"); /* IE9 Compat Modes */
     src: local("Lato Light"), local("Lato-Light"),
-      url("../fonts/Lato-Medium.eot?#iefix") format("embedded-opentype"),
-      /* IE6-IE8 */ url("../fonts/Lato-Medium.woff2") format("woff2"),
-      /* Super Modern Browsers */ url("../fonts/Lato-Medium.woff")
+      url("../fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Lato-Regular.woff2") format("woff2"),
+      /* Super Modern Browsers */ url("../fonts/Lato-Regular.woff")
         format("woff"),
-      /* Modern Browsers */ url("../fonts/Lato-Medium.ttf")
+      /* Modern Browsers */ url("../fonts/Lato-Regular.ttf")
         format("truetype")
   }
   /* lato-700 bold */
