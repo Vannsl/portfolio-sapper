@@ -12,14 +12,8 @@
   export let speakingUpcoming = [
     {
       title: "Microfrontends: The Good, The Bad and The Ugly",
-      location: "Frankfurt",
-      date: "20/01/2020",
-      country: "germany"
-    },
-    {
-      title: "Microfrontends: The Good, The Bad and The Ugly",
       location: "Munich",
-      date: "21/01/2020",
+      date: "22/01/2020",
       country: "germany"
     },
     {
@@ -27,6 +21,12 @@
       location: "Prague",
       date: "28/01/2020",
       country: "czech-republic"
+    },
+    {
+      title: "Microfrontends: The Good, The Bad and The Ugly",
+      location: "Frankfurt",
+      date: "25/02/2020",
+      country: "germany"
     },
     {
       title: "Testing Techniques for Component Driven Development",
