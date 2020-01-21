@@ -11,7 +11,7 @@
   /* lato-400 medium */
   @font-face {
     font-family: "Lato";
-    font-display: auto;
+    font-display: swap;
     font-style: normal;
     font-weight: 400;
     src: url("../fonts/Lato-Regular.eot"); /* IE9 Compat Modes */
@@ -26,7 +26,7 @@
   /* lato-700 bold */
   @font-face {
     font-family: "Lato";
-    font-display: auto;
+    font-display: swap;
     font-style: normal;
     font-weight: 700;
     src: url("../fonts/Lato-Bold.eot"); /* IE9 Compat Modes */
