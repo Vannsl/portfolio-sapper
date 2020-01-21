@@ -8,6 +8,12 @@
   import Spacing from "../components/Spacing.svelte";
 
   export let publications = [
+   {
+      title: "All you need to know to start writing Svelte Single File Components",
+      src: "https://dev.to/vannsl/all-you-need-to-know-to-start-writing-svelte-single-file-components-cbd",
+      publisher: "dev.to",
+      date: "17/01/2020"
+    },
     {
       title: "Statically generated website with Svelte and Sapper",
       src: "https://dev.to/vannsl/statically-generated-website-with-svelte-and-sapper-5bi7",
