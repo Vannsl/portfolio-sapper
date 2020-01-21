@@ -18,6 +18,10 @@
           Open GitHub Repository
         </OutgoingLink>
       </p>
+      <p>
+        This web site does not load a single tracking library. You can click on
+        the link.
+      </p>
     </section>
   </div>
 </div>
