@@ -8,6 +8,7 @@
   <a
     {href}
     aria-label="Open Vannsl's {id} page"
+    class="p-2"
     target="_blank"
     rel="nofollor, noreferrer, noopener"
   >

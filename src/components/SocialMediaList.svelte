@@ -20,7 +20,7 @@
   ]
 </script>
 
-<ul class="justify-center flex flex-row">
+<ul class="flex flex-row justify-center">
   {#each icons as icon}
     <SocialMediaListItem {...icon} />
   {/each}
