@@ -94,7 +94,7 @@
 </style>
 
 <svelte:head>
-  <title>Vannsl Writing</title>
+  <title>Vannsl | Writing</title>
 </svelte:head>
 
 <SmallHero segment="writing" type="cover" />

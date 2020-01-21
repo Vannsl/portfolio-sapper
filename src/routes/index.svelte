@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-  <title>Vannsl - Vanessa Böhner Portfolio</title>
+  <title>Vannsl | Web Developer</title>
 </svelte:head>
 
 <Hero/>

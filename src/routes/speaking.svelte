@@ -313,7 +313,7 @@ export let mentoring = [
 </style>
 
 <svelte:head>
-  <title>Vannsl Speaking</title>
+  <title>Vannsl | Speaking</title>
 </svelte:head>
 
 <SmallHero segment="speaking" type="contain" />
