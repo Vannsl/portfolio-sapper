@@ -22,7 +22,6 @@
 
   .text-transition {
     animation: fade 2s;
-    animation-delay: 0.2s;
     animation-fill-mode: forwards;
   }
 

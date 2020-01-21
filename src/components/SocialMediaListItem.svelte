@@ -5,7 +5,12 @@
 </script>
 
 <li class="m-1 text-white">
-  <a {href} target="_blank" rel="nofollor, noreferrer, noopener">
+  <a
+    {href}
+    aria-label="Open Vannsl's {id} page"
+    target="_blank"
+    rel="nofollor, noreferrer, noopener"
+  >
     <svg
       aria-hidden="true"
       focusable="false"
