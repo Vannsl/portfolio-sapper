@@ -14,19 +14,19 @@
       title: "Microfrontends: The Good, The Bad and The Ugly",
       location: "Munich",
       date: "22/01/2020",
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "Microfrontends: The Good, The Bad and The Ugly",
       location: "Prague",
       date: "28/01/2020",
-      country: "czech-republic"
+      emoji: "czech-republic"
     },
     {
       title: "Microfrontends: The Good, The Bad and The Ugly",
       location: "Frankfurt",
       date: "25/02/2020",
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "Testing Techniques for Component Driven Development",
@@ -34,7 +34,7 @@
       eventSrc: "https://think-about.io/events/2020/talks/component_driven_development.html",
       location: "Cologne",
       date: "04/06/2020",
-      country: "germany"
+      emoji: "germany"
     }
   ]
 
@@ -45,7 +45,7 @@
       eventSrc: "https://www.meetup.com/de-DE/hamburg-js/events/266723104/",
       location: "Hamburg",
       date: "11/12/2019",
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "Accidentally JAM Stack",
@@ -54,7 +54,7 @@
       location: "Linz",
       videoSrc: "https://www.youtube.com/watch?v=G20P46_4L4A",
       date: "24/10/2019",
-      country: "austria"
+      emoji: "austria"
     },
     {
       title: "Why I decided to speak at Conferences",
@@ -63,7 +63,7 @@
       location: "Munich",
       slidesSrc: "https://slides.com/vannsl/public-speaking#/",
       date: "20/09/2019",
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "Adventure Time: Let's build a website in 2019",
@@ -72,7 +72,7 @@
       location: "Nuremberg",
       slidesSrc: "https://slides.com/vannsl/adventure-time-franken-js#/",
       date: "29/07/2019",
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "Server-Side Rendering using Nuxt.js",
@@ -81,7 +81,7 @@
       location: "Dornbirn",
       slidesSrc: "https://slides.com/vannsl/workerconf-nuxt#/",
       date: "28/06/2019",
-      country: "austria"
+      emoji: "austria"
     },
     {
       title: "Vue.js: Entstehung, Einsatzgebiete und Zukunftsprognosen",
@@ -89,7 +89,7 @@
       eventSrc: "https://enterjs.de/2019/single?id=8374&vue.js%3A-entstehung%2C-einsatzgebiete-und-zukunftsprognosen",
       location: "Darmstadt",
       date: "26/06/2019",
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "From Legacy to Vue.js",
@@ -97,7 +97,7 @@
       eventSrc: "https://javascript-conference.com/vue-js/from-legacy-to-vue-js/",
       location: "London",
       date: "14/05/2019",
-      country: "united-kingdom"
+      emoji: "united-kingdom"
     },
     {
       title: "Lightning: Nuxt.js <3 TailwindCSS",
@@ -105,7 +105,7 @@
       eventSrc: "https://frontconf.com/",
       location: "Munich",
       date: "27/04/2019",
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "The VUE(.js)ture is here – endlich erweiter- und wartbare Webapplikationen?",
@@ -113,7 +113,7 @@
       eventSrc: "https://javascript-days.de/javascript/the-vue-jsture-is-here-endlich-erweiter-und-wartbare-webapplikationen/",
       location: "Munich",
       date: "20/03/2019",
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "How to build a static website in two and a half days with Nuxt and TailwindCSS",
@@ -121,7 +121,7 @@
       eventSrc: "https://www.techdivision.com/unternehmen/veranstaltungen.html",
       location: "Munich",
       date: "21/02/2019",
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "New website in two and a half days",
@@ -129,7 +129,7 @@
       eventSrc: "https://www.meetup.com/de-DE/sinnerschrader-hamburg/events/256937241/",
       location: "Hamburg",
       date: "07/02/2019",
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "How to build a static website in two and a half days with Nuxt and TailwindCSS",
@@ -140,7 +140,7 @@
       codebases: [{
         src: "https://github.com/Vannsl/ausbaufaehig-podcast"
       }],
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "Vue Single File Components and Composing",
@@ -148,7 +148,7 @@
       eventSrc: "https://www.meetup.com/de-DE/TechDivision-TechTalk-Munchen/events/254404298/",
       location: "Munich",
       date: "20/09/2018",
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "Vue.js Component Tools",
@@ -160,7 +160,7 @@
       codebases: [{
         src: "https://github.com/Vannsl/Vue-Composing-Components"
       }],
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "Pain Free Frontend Development",
@@ -172,7 +172,7 @@
       codebases: [{
         src: "https://github.com/Vannsl/spa-flask-vue"
       }],
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "State Transitions with Vue.js",
@@ -189,7 +189,7 @@
           src: "https://github.com/Vannsl/vue-router-transitions"
         }
       ],
-      country: "germany"
+      emoji: "germany"
     },
     {
       title: "Composing Components",
@@ -201,7 +201,7 @@
       codebases: [{
         src: "https://github.com/Vannsl/Vue-Composing-Components"
       }],
-      country: "germany"
+      emoji: "germany"
     },
   ]
 
@@ -211,14 +211,16 @@ export let podcasts = [
     src: "https://workingdraft.de/375/",
     publisher: "Working Draft",
     episode: "Revision 375",
-    date: "11/02/2019"
+    date: "11/02/2019",
+    emoji: "podcast"
   },
   {
     title: "Vue.js - Der Deep Dive",
     src: "https://workingdraft.de/367/",
     publisher: "Working Draft",
     episode: "Revision 367",
-    date: "29/11/2018"
+    date: "29/11/2018",
+    emoji: "podcast"
   }
 ]
 
@@ -227,7 +229,8 @@ export let interviews = [
     title: "Vue.js: Nicht nur für neue Projekte eine gute Wahl | Vanessa Böhner im Interview | JS Days 2019",
     src: "https://www.youtube.com/watch?v=-tm2o4NHme4",
     publisher: "EntwickerAkadamie",
-    date: "12/06/2019"
+    date: "12/06/2019",
+    emoji: "videointerviews"
   }
 ]
 
@@ -237,7 +240,8 @@ export let mentoring = [
     event: "ScriptConf",
     eventSrc: "https://scriptconf.org/#workshops",
     location: "Linz",
-    date: "24/10/2019"
+    date: "24/10/2019",
+    emoji: "mentoring"
   },
   {
     title: "Introduction to Nuxt.js",
@@ -245,72 +249,25 @@ export let mentoring = [
     eventSrc: "https://scriptconf.org/#workshops",
     location: "Bregenz",
     date: "27/06/2019",
-    slidesSrc: "https://slides.com/vannsl/nuxtjs-harry-potter#/"
+    slidesSrc: "https://slides.com/vannsl/nuxtjs-harry-potter#/",
+    emoji: "mentoring"
   },
   {
     title: "JSDay - half a day full of JavaScript",
     event: "JSKongress Pre-Event @ SinnerSchrader",
     eventSrc: "https://www.meetup.com/de-DE/SinnerSchrader-Munich-Events/events/257780477/",
     location: "Munich",
-    date: "10/03/2019"
+    date: "10/03/2019",
+    emoji: "mentoring"
   },
   {
     title: "ngGirls Full Day Workshop",
     location: "Munich",
-    date: "24/11/2018"
+    date: "24/11/2018",
+    emoji: "mentoring"
   }
 ]
 </script>
-
-<style global>
-  ul.listing,
-  ul.listing li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  ul.listing li {
-    position: relative;
-    padding-left: 36px;
-    margin-bottom: 20px;
-  }
-
-  ul.listing li:before {
-    display: block;
-    position: absolute;
-    top: 2px;
-    left: 0;
-    content: "";
-    font-size: 1.2em;
-  }
-
-  ul.listing.videointerviews li:before {
-    content: "🎥";
-  }
-  ul.listing.podcast li:before {
-    content: "🎧";
-  }
-  ul.listing.mentoring li:before {
-    content: "👩‍🏫";
-  }
-
-  ul.listing li.austria:before {
-    content: "🇦🇹";
-  }
-
-  ul.listing li.czech-republic:before {
-    content: "🇨🇿";
-  }
-
-  ul.listing li.germany:before {
-    content: "🇩🇪";
-  }
-
-  ul.listing li.united-kingdom:before {
-    content: "🇬🇧";
-  }
-</style>
 
 <svelte:head>
   <title>Vannsl | Speaking</title>
@@ -338,18 +295,15 @@ export let mentoring = [
 <Spacing></Spacing>
 <Article>
   <HeadlineTertiary>podcasts</HeadlineTertiary>
-  <List type="podcast">
+  <List>
     {#each podcasts as item (item.date)}
       <SimpleListItem {item} />
     {/each}
-    <li>
-      <OutgoingLink href="https://ausbaufaehig-podcast.de">Ausbaufähig - der Wein-Podcast</OutgoingLink> Fun with Wine!<br>2018 - today
-    </li>
   </List>
 </Article>
 <Article>
   <HeadlineTertiary>interviews</HeadlineTertiary>
-  <List type="videointerviews">
+  <List>
     {#each interviews as item (item.date)}
       <SimpleListItem {item} />
     {/each}
@@ -359,7 +313,7 @@ export let mentoring = [
 <Header title="mentoring & workshops" />
 <Spacing></Spacing>
 <Article>
-  <List type="mentoring">
+  <List>
     {#each mentoring as item (item.date)}
       <ListItem {item} />
     {/each}

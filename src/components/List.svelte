@@ -1,7 +1,3 @@
-<script>
-  export let type = "";
-</script>
-
 <style>
   ul {
     list-style: none;
@@ -10,6 +6,6 @@
   }
 </style>
 
-<ul class="{type} listing text-tertiary">
+<ul class="text-tertiary">
   <slot></slot>
 </ul>
