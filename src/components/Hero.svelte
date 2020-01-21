@@ -19,15 +19,6 @@
       background-position: 50% 0%;
     }
   }
-
-  @keyframes fade {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
 </style>
 
 <header class="w-full h-auto">
