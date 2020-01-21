@@ -20,6 +20,9 @@ module.exports = {
       height: {
         "300-px": "300px"
       },
+      inset: {
+        "1/2": "50%"
+      },
       maxWidth: {
         "300-px": "300px"
       },

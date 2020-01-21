@@ -3,7 +3,7 @@
   export let segment;
 </script>
 
-<nav class="flex sm:justify-between border border-tertiary-opacity-200 text-primary sm:uppercase tracking-wider">
+<nav class="flex justify-between border border-tertiary-opacity-200 text-primary uppercase tracking-wider">
   <ul class="m-0 p-0 clearfix">
     <NavItem selected={segment === undefined} href=".">
       vannsl
@@ -11,9 +11,6 @@
   </ul>
 
   <ul class="m-0 p-0 clearfix">
-    <NavItem selected={segment === "about"} href="about">
-      about
-    </NavItem>
     <NavItem selected={segment === "speaking"} href="speaking">
       speaking
     </NavItem>

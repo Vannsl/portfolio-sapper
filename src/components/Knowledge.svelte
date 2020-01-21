@@ -7,6 +7,11 @@
   import Paragraph from "./Paragraph.svelte";
   import Spacing from "./Spacing.svelte";
   import WideArticle from "./WideArticle.svelte";
+  import Tags from "./Tags.svelte";
+
+  const markup = ["HTML5", "Pug", "Mustache", "Handlebars", "CSS3", "SASS", "BEM", "Tailwindcss"]
+  const js = ["ES6", "TypeScript", "Vue.js", "Nuxt.js", "Svelte.js", "Sapper.js", "web components", "Storybook", "Webpack", "RollUp"]
+  const testing = ["Jest", "Cypress", "Puppeteer"]
 </script>
 
 <Article>
@@ -31,15 +36,8 @@
       <Paragraph isTertiary="{true}">
         I build websites in terms of the look and feel and how users will
         interact with them across all common browsers and devices. I love to
-        code, no matter if it is organized in a big monolith or in tiny
-        micro-frontends. I use technologies like
-        <span class="font-bold">HTML5</span>,
-        <span class="font-bold">CSS3, SASS and TailwindCSS</span>,
-        <span class="font-bold">ES6 and TypeScript</span>,
-        <span class="font-bold"
-          >Vue.js, nuxt.js, Svelte.js and web components</span
-        >, <span class="font-bold">Webpack and RollUp</span> and
-        <span class="font-bold">Jest, Cypress and Puppeteer</span>.
+        code, no matter if the project is organized in a <strong>big monolith</strong> or in <strong>tiny
+        micro-frontends</strong>.
       </Paragraph>
     </GridItem>
     <GridItem>
@@ -50,15 +48,21 @@
         Interaction Design
       </HeadlineTertiary>
       <Paragraph isPrimary="{false}">
-        For me, web design is more than writing code all day long. Frameworks
-        are there for organizing our minds, not our code. My focus is not only
-        on the
+        Frameworks are there for organizing our minds, not our code. My focus is 
+        on both the
         <span class="font-bold">developer & designer experience (DX)</span>
-        but also on the usability of the page for a perfect
-        <span class="font-bold">user experience (UX)</span>. Therefore I use
-        techniques of the human computer interaction to create architectures and
-        <span class="font-bold">user interfaces (UI)</span>.
+        and the
+        <span class="font-bold">user experience (UX)</span> to create the best 
+        <span class="font-bold">user interfaces (UI)</span> possible.
       </Paragraph>
     </GridItem>
   </Grid>
+
+  <Spacing />
+
+  <div class="relative">
+    <Tags labels={markup} />
+    <Tags labels={js} />
+    <Tags labels={testing} />
+  </div>
 </WideArticle>
