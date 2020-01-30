@@ -12,19 +12,10 @@
   export let speakingUpcoming = [
     {
       title: "Microfrontends: The Good, The Bad and The Ugly",
-      location: "Munich",
-      date: "22/01/2020",
-      emoji: "germany"
-    },
-    {
-      title: "Microfrontends: The Good, The Bad and The Ugly",
-      location: "Prague",
-      date: "28/01/2020",
-      emoji: "czech-republic"
-    },
-    {
-      title: "Microfrontends: The Good, The Bad and The Ugly",
+      event: "Code is Colorful",
+      eventSrc: "https://www.meetup.com/de-DE/SinnerSchrader-Frankfurt/events/268136278/",
       location: "Frankfurt",
+      slidesSrc: "https://slides.com/vannsl/microfrontends#/",
       date: "25/02/2020",
       emoji: "germany"
     },
@@ -41,9 +32,28 @@
   export let speakingPast = [
     {
       title: "Microfrontends: The Good, The Bad and The Ugly",
+      event: "Code is Colorful",
+      eventSrc: "https://www.meetup.com/de-DE/S2talks/events/267803544/",
+      location: "Prague",
+      slidesSrc: "https://slides.com/vannsl/microfrontends#/",
+      date: "28/01/2020",
+      emoji: "czech-republic"
+    },
+    {
+      title: "Microfrontends: The Good, The Bad and The Ugly",
+      event: "Code is Colorful",
+      eventSrc: "https://www.meetup.com/de-DE/SinnerSchrader-Munich-Events/events/267755040/",
+      location: "Munich",
+      slidesSrc: "https://slides.com/vannsl/microfrontends#/",
+      date: "22/01/2020",
+      emoji: "germany"
+    },
+    {
+      title: "Microfrontends: The Good, The Bad and The Ugly",
       event: "HHjs",
       eventSrc: "https://www.meetup.com/de-DE/hamburg-js/events/266723104/",
       location: "Hamburg",
+      slidesSrc: "https://slides.com/vannsl/microfrontends#/",
       date: "11/12/2019",
       emoji: "germany"
     },
