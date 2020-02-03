@@ -1,12 +1,13 @@
 <script>
   import OutgoingLink from "./OutgoingLink.svelte";
+  import Heart from "./Heart.svelte";
 </script>
 
 <style></style>
 
 <div class="relative w-full h-auto">
-  <div class="w-full h-screen py-48 px-10 bg-secondary text-dark">
-    <section class="text-center">
+  <div class="w-full h-screen pt-48 px-10 bg-secondary text-dark">
+    <section class="sm:mb-12 mb-6 text-center">
       <p class="relative sm:text-3xl text-xl tracking-wider z-10">
         <strong>The code of this web page is open source.</strong><br />
         Feel free to use it.
@@ -23,5 +24,8 @@
         the link.
       </p>
     </section>
+    <div class="absolute inset-x-1/2">
+      <Heart />
+    </div>
   </div>
 </div>
