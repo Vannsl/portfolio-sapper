@@ -20,6 +20,15 @@
       emoji: "germany"
     },
     {
+      title: "Microfrontends: The Good, The Bad and The Ugly",
+      event: "Munich Frontend Conference",
+      eventSrc: "https://frontconf.com/",
+      location: "Munich",
+      slidesSrc: "https://slides.com/vannsl/microfrontends#/",
+      date: "21/03/2020",
+      emoji: "germany"
+    },
+    {
       title: "Testing Techniques for Component Driven Development",
       event: "Think About!",
       eventSrc: "https://think-about.io/events/2020/talks/component_driven_development.html",
