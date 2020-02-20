@@ -9,6 +9,13 @@
 
   export let publications = [
    {
+      title: "Configuring TailwindCSS for Sapper",
+      src: "https://dev.to/vannsl/configuring-tailwindcss-for-sapper-58jm",
+      publisher: "dev.to",
+      date: "31/01/2020",
+      emoji: "publications"
+    },
+   {
       title: "All you need to know to start writing Svelte Single File Components",
       src: "https://dev.to/vannsl/all-you-need-to-know-to-start-writing-svelte-single-file-components-cbd",
       publisher: "dev.to",
