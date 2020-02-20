@@ -226,6 +226,14 @@
 
 export let podcasts = [
   {
+    title: "Svelte",
+    src: "https://workingdraft.de/413/",
+    publisher: "Working Draft",
+    episode: "Revision 413",
+    date: "18/02/2020",
+    emoji: "podcast"
+  },
+  {
     title: "Frontend Testing",
     src: "https://workingdraft.de/375/",
     publisher: "Working Draft",
