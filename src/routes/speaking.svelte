@@ -234,6 +234,14 @@ export let podcasts = [
     emoji: "podcast"
   },
   {
+    title: "Micro Frontends mit Project Mosaic",
+    src: "https://workingdraft.de/407/",
+    publisher: "Working Draft",
+    episode: "Revision 407",
+    date: "07/01/2020",
+    emoji: "podcast"
+  },
+  {
     title: "Frontend Testing",
     src: "https://workingdraft.de/375/",
     publisher: "Working Draft",
