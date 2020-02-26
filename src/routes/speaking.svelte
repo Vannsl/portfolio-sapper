@@ -12,15 +12,6 @@
   export let speakingUpcoming = [
     {
       title: "Microfrontends: The Good, The Bad and The Ugly",
-      event: "Code is Colorful",
-      eventSrc: "https://www.meetup.com/de-DE/SinnerSchrader-Frankfurt/events/268136278/",
-      location: "Frankfurt",
-      slidesSrc: "https://slides.com/vannsl/microfrontends#/",
-      date: "25/02/2020",
-      emoji: "germany"
-    },
-    {
-      title: "Microfrontends: The Good, The Bad and The Ugly",
       event: "Munich Frontend Conference",
       eventSrc: "https://frontconf.com/",
       location: "Munich",
@@ -39,6 +30,15 @@
   ]
 
   export let speakingPast = [
+    {
+      title: "Microfrontends: The Good, The Bad and The Ugly",
+      event: "Code is Colorful",
+      eventSrc: "https://www.meetup.com/de-DE/SinnerSchrader-Frankfurt/events/268136278/",
+      location: "Frankfurt",
+      slidesSrc: "https://slides.com/vannsl/microfrontends#/",
+      date: "25/02/2020",
+      emoji: "germany"
+    },
     {
       title: "Microfrontends: The Good, The Bad and The Ugly",
       event: "Code is Colorful",
