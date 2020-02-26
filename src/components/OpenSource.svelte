@@ -7,7 +7,7 @@
 
 <div class="relative w-full h-auto">
   <div class="w-full h-screen pt-48 px-10 bg-secondary text-dark">
-    <section class="sm:mb-12 mb-6 text-center">
+    <section class="sm:mb-14 mb-10 text-center">
       <p class="relative sm:text-3xl text-xl tracking-wider z-10">
         <strong>The code of this web page is open source.</strong><br />
         Feel free to use it.
