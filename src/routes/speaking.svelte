@@ -11,16 +11,7 @@
 
   export let speakingUpcoming = [
     {
-      title: "Microfrontends: The Good, The Bad and The Ugly",
-      event: "Munich Frontend Conference",
-      eventSrc: "https://frontconf.com/",
-      location: "Munich",
-      slidesSrc: "https://slides.com/vannsl/microfrontends#/",
-      date: "21/03/2020",
-      emoji: "germany"
-    },
-    {
-      title: "Testing Techniques for Component Driven Development",
+      title: "[CANCELLED] Testing Techniques for Component Driven Development",
       event: "Think About!",
       eventSrc: "https://think-about.io/events/2020/talks/component_driven_development.html",
       location: "Cologne",
@@ -30,6 +21,15 @@
   ]
 
   export let speakingPast = [
+    {
+      title: "Microfrontends: The Good, The Bad and The Ugly",
+      event: "Munich Frontend Conference",
+      eventSrc: "https://frontconf.com/",
+      location: "Munich",
+      slidesSrc: "https://slides.com/vannsl/microfrontends#/",
+      date: "21/03/2020",
+      emoji: "germany"
+    },
     {
       title: "Microfrontends: The Good, The Bad and The Ugly",
       event: "Code is Colorful",
@@ -313,6 +313,9 @@ export let mentoring = [
 <Spacing></Spacing>
 <Article>
   <HeadlineTertiary>upcoming</HeadlineTertiary>
+  <div class="mb-4 p-4 border-2 border-dashed border-primary bg-dark text-white">
+    <p>Due to COVID-19 I won't attend any conferences, workshops or MeetUps (unless fully remote) <s>for 2 months</s> until it's over.</p>
+  </div>
   <List>
     {#each speakingUpcoming as item (item.date)}
       <ListItem {item} />
