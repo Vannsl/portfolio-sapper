@@ -54,6 +54,13 @@
 
   export let interviews = [
     {
+      title: "Being part of JS Kongress Program Committee",
+      src: "https://dev.to/s2engineers/being-part-of-js-kongress-program-committee-2mal",
+      publisher: "SinnerSchrader Engineers",
+      date: "12/03/2020",
+      emoji: "interviews"
+    },
+    {
       title: "New Member for the PC: Vanessa Böhner",
       src: "https://medium.com/@jskongress/new-member-for-the-pc-vanessa-b%C3%B6hner-b64bc7ef6f83",
       publisher: "JS Kongress Munich",
