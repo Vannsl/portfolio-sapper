@@ -22,7 +22,7 @@
 
   export let speakingPast = [
     {
-      title: "Microfrontends: The Good, The Bad and The Ugly",
+      title: "[ONLINE ONLY] Microfrontends: The Good, The Bad and The Ugly",
       event: "Munich Frontend Conference",
       eventSrc: "https://frontconf.com/",
       location: "Munich",
