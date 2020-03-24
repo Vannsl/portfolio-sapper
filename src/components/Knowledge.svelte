@@ -11,7 +11,7 @@
 
   const markup = ["HTML5", "Pug", "Mustache", "Handlebars", "CSS3", "SASS", "BEM", "Tailwindcss"]
   const js = ["ES6", "TypeScript", "Vue.js", "Nuxt.js", "Svelte.js", "Sapper.js", "web components", "Storybook", "Webpack", "RollUp"]
-  const testing = ["Jest", "Cypress", "Puppeteer"]
+  const tooling = ["Jest", "Cypress", "Puppeteer", "Netlify", "Now.sh"]
 </script>
 
 <Article>
@@ -63,6 +63,6 @@
   <div class="relative">
     <Tags labels={markup} />
     <Tags labels={js} />
-    <Tags labels={testing} />
+    <Tags labels={tooling} />
   </div>
 </WideArticle>
