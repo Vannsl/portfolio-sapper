@@ -12,9 +12,6 @@ module.exports = {
         tertiary: "hsl(336.3, 78%, 42.8%)",
         link: "hsl(250, 100%, 40%)",
         dark: "hsl(0, 0%, 12.9%)",
-        "primary-opacity-200": "hsla(3339.6, 82.2%, 51.6%, 0.2)",
-        "secondary-opacity-200": "hsla(35.8, 100%, 50%, 0.2)",
-        "tertiary-opacity-200": "hsla(336.3, 78%, 42.8%, 0.2)",
         transparent: "hsla(0, 0%, 100%, 0.1)"
       },
       height: {
@@ -37,8 +34,8 @@ module.exports = {
       full: [
         theme("colors.tertiary"),
         theme("colors.primary"),
-        theme("colors.secondary"),
-        theme("colors.tertiary")
+        theme("colors.tertiary"),
+        theme("colors.secondary")
       ]
     })
   },
