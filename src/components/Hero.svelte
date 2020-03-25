@@ -1,3 +1,7 @@
+<script>
+  import { fadeIn, fadeOut } from "../utils/page_fade";
+</script>
+
 <style>
   .clipped {
     clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
@@ -23,7 +27,7 @@
 
 <header class="w-full h-auto">
   <div class="clipped w-full h-screen py-32 px-2 bg-gradient-full text-white">
-    <section class="text-center">
+    <section in:fadeIn out:fadeOut class="text-center">
       <div
         class="mx-auto mb-10 w-auto border-4 border-solid border-white rounded-sm px-4 inline-block"
       >

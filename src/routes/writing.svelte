@@ -1,4 +1,5 @@
 <script>
+  import { fadeIn, fadeOut } from "../utils/page_fade";
   import Article from "../components/Article.svelte";
   import Header from "../components/Header.svelte";
   import SmallHero from "../components/SmallHero.svelte";
@@ -88,26 +89,28 @@
   <title>Vannsl | Writing</title>
 </svelte:head>
 
-<SmallHero segment="writing" type="cover" />
-<Header title="publications" />
-<Spacing></Spacing>
-<Article>
-  <List>
-    {#each publications as item (item.date)}
-      <SimpleListItem {item} />
-    {/each}
-  </List>
-</Article>
-<Spacing></Spacing>
-<Header title="interviews" />
-<Spacing></Spacing>
-<Article>
-  <List type="interviews">
-    {#each interviews as item (item.date)}
-      <SimpleListItem {item} />
-    {/each}
-  </List>
-</Article>
+<main in:fadeIn out:fadeOut>
+  <SmallHero segment="writing" type="cover" />
+  <Header title="publications" />
+  <Spacing></Spacing>
+  <Article>
+    <List>
+      {#each publications as item (item.date)}
+        <SimpleListItem {item} />
+      {/each}
+    </List>
+  </Article>
+  <Spacing></Spacing>
+  <Header title="interviews" />
+  <Spacing></Spacing>
+  <Article>
+    <List type="interviews">
+      {#each interviews as item (item.date)}
+        <SimpleListItem {item} />
+      {/each}
+    </List>
+  </Article>
 
-<Spacing></Spacing>
-<Spacing></Spacing>
+  <Spacing></Spacing>
+  <Spacing></Spacing>
+</main>

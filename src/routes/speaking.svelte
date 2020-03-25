@@ -1,4 +1,5 @@
 <script>
+  import { fadeIn, fadeOut } from "../utils/page_fade";
   import Article from "../components/Article.svelte";
   import Header from "../components/Header.svelte";
   import HeadlineTertiary from "../components/HeadlineTertiary.svelte";
@@ -308,55 +309,57 @@ export let mentoring = [
   <title>Vannsl | Speaking</title>
 </svelte:head>
 
-<SmallHero segment="speaking" type="contain" />
-<Header title="talks" />
-<Spacing></Spacing>
-<Article>
-  <HeadlineTertiary>upcoming</HeadlineTertiary>
-  <div class="mb-4 p-4 border-2 border-dashed border-primary bg-dark text-white">
-    <p>Due to COVID-19 I won't attend any conferences, workshops or MeetUps (unless fully remote) <s>for 2 months</s> until it's over.</p>
-  </div>
-  <List>
-    {#each speakingUpcoming as item (item.date)}
-      <ListItem {item} />
-    {/each}
-  </List>
-  <HeadlineTertiary>past</HeadlineTertiary>
-  <List>
-    {#each speakingPast as item (item.date)}
-      <ListItem {item} />
-    {/each}
-  </List>
-</Article>
-<Spacing></Spacing>
-<Header title="podcasts & interviews" />
-<Spacing></Spacing>
-<Article>
-  <HeadlineTertiary>podcasts</HeadlineTertiary>
-  <List>
-    {#each podcasts as item (item.date)}
-      <SimpleListItem {item} />
-    {/each}
-  </List>
-</Article>
-<Article>
-  <HeadlineTertiary>interviews</HeadlineTertiary>
-  <List>
-    {#each interviews as item (item.date)}
-      <SimpleListItem {item} />
-    {/each}
-  </List>
-</Article>
-<Spacing></Spacing>
-<Header title="mentoring & workshops" />
-<Spacing></Spacing>
-<Article>
-  <List>
-    {#each mentoring as item (item.date)}
-      <ListItem {item} />
-    {/each}
-  </List>
-</Article>
+<main in:fadeIn out:fadeOut>
+  <SmallHero segment="speaking" type="contain" />
+  <Header title="talks" />
+  <Spacing></Spacing>
+  <Article>
+    <HeadlineTertiary>upcoming</HeadlineTertiary>
+    <div class="mb-4 p-4 border-2 border-dashed border-primary bg-dark text-white">
+      <p>Due to COVID-19 I won't attend any conferences, workshops or MeetUps (unless fully remote) <s>for 2 months</s> until it's over.</p>
+    </div>
+    <List>
+      {#each speakingUpcoming as item (item.date)}
+        <ListItem {item} />
+      {/each}
+    </List>
+    <HeadlineTertiary>past</HeadlineTertiary>
+    <List>
+      {#each speakingPast as item (item.date)}
+        <ListItem {item} />
+      {/each}
+    </List>
+  </Article>
+  <Spacing></Spacing>
+  <Header title="podcasts & interviews" />
+  <Spacing></Spacing>
+  <Article>
+    <HeadlineTertiary>podcasts</HeadlineTertiary>
+    <List>
+      {#each podcasts as item (item.date)}
+        <SimpleListItem {item} />
+      {/each}
+    </List>
+  </Article>
+  <Article>
+    <HeadlineTertiary>interviews</HeadlineTertiary>
+    <List>
+      {#each interviews as item (item.date)}
+        <SimpleListItem {item} />
+      {/each}
+    </List>
+  </Article>
+  <Spacing></Spacing>
+  <Header title="mentoring & workshops" />
+  <Spacing></Spacing>
+  <Article>
+    <List>
+      {#each mentoring as item (item.date)}
+        <ListItem {item} />
+      {/each}
+    </List>
+  </Article>
 
-<Spacing></Spacing>
-<Spacing></Spacing>
+  <Spacing></Spacing>
+  <Spacing></Spacing>
+</main>

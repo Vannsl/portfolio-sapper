@@ -7,8 +7,6 @@
 
 <Nav {segment}/>
 
-<main>
-	<slot></slot>
-</main>
+<slot></slot>
 
 <Footer/>
