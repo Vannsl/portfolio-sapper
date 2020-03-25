@@ -33,10 +33,6 @@ module.exports = {
         "90vw": "90vw"
       }
     },
-    gradientsTwoSteps: theme => ({
-      "secondary-primary": [theme("colors.secondary"), theme("colors.primary")],
-      "tertiary-primary": [theme("colors.tertiary"), theme("colors.primary")]
-    }),
     gradientsFourSteps: theme => ({
       full: [
         theme("colors.tertiary"),
@@ -59,17 +55,6 @@ module.exports = {
           }
         })
       );
-
-      addUtilities(utilities);
-    },
-    function({ addUtilities, e, theme }) {
-      const gradients = theme("gradientsTwoSteps", {});
-
-      const utilities = _.map(gradients, ([start, end], name) => ({
-        [`.bg-gradient-${e(name)}`]: {
-          backgroundImage: `linear-gradient(0deg, ${start}, ${end})`
-        }
-      }));
 
       addUtilities(utilities);
     }
