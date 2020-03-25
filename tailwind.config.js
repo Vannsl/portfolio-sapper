@@ -43,12 +43,6 @@ module.exports = {
         theme("colors.primary"),
         theme("colors.secondary"),
         theme("colors.tertiary")
-      ],
-      flecked: [
-        theme("colors.secondary"),
-        theme("colors.primary"),
-        theme("colors.tertiary"),
-        theme("colors.primary")
       ]
     })
   },
