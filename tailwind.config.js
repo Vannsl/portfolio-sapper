@@ -12,8 +12,6 @@ module.exports = {
         tertiary: "hsl(336.3, 78%, 42.8%)",
         link: "hsl(250, 100%, 40%)",
         dark: "hsl(0, 0%, 12.9%)",
-        "primary-opacity-200": "hsla(3339.6, 82.2%, 51.6%, 0.2)",
-        "secondary-opacity-200": "hsla(35.8, 100%, 50%, 0.2)",
         "tertiary-opacity-200": "hsla(336.3, 78%, 42.8%, 0.2)",
         transparent: "hsla(0, 0%, 100%, 0.1)"
       },
@@ -33,22 +31,12 @@ module.exports = {
         "90vw": "90vw"
       }
     },
-    gradientsTwoSteps: theme => ({
-      "secondary-primary": [theme("colors.secondary"), theme("colors.primary")],
-      "tertiary-primary": [theme("colors.tertiary"), theme("colors.primary")]
-    }),
     gradientsFourSteps: theme => ({
       full: [
         theme("colors.tertiary"),
         theme("colors.primary"),
         theme("colors.secondary"),
         theme("colors.tertiary")
-      ],
-      flecked: [
-        theme("colors.secondary"),
-        theme("colors.primary"),
-        theme("colors.tertiary"),
-        theme("colors.primary")
       ]
     })
   },
@@ -65,17 +53,6 @@ module.exports = {
           }
         })
       );
-
-      addUtilities(utilities);
-    },
-    function({ addUtilities, e, theme }) {
-      const gradients = theme("gradientsTwoSteps", {});
-
-      const utilities = _.map(gradients, ([start, end], name) => ({
-        [`.bg-gradient-${e(name)}`]: {
-          backgroundImage: `linear-gradient(0deg, ${start}, ${end})`
-        }
-      }));
 
       addUtilities(utilities);
     }
