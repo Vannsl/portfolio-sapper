@@ -35,8 +35,8 @@ module.exports = {
       full: [
         theme("colors.tertiary"),
         theme("colors.primary"),
-        theme("colors.tertiary"),
-        theme("colors.secondary")
+        theme("colors.secondary"),
+        theme("colors.tertiary")
       ]
     })
   },
