@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        double: "0 0 0 5px hsl(336.3, 78%, 42.8%)"
+        double: "0 0 0 5px hsl(336.3, 78%, 42.8%)",
       },
       colors: {
         primary: "hsl(339.6, 82.2%, 51.6%)",
@@ -13,48 +13,75 @@ module.exports = {
         link: "hsl(250, 100%, 40%)",
         dark: "hsl(0, 0%, 12.9%)",
         "tertiary-opacity-200": "hsla(336.3, 78%, 42.8%, 0.2)",
-        transparent: "hsla(0, 0%, 100%, 0.1)"
+        transparent: "hsla(0, 0%, 100%, 0.1)",
       },
       height: {
-        "300-px": "300px"
+        "300-px": "300px",
       },
       inset: {
-        "1/2": "50%"
+        "1/2": "50%",
       },
       maxWidth: {
-        "300-px": "300px"
+        "300-px": "300px",
       },
       padding: {
-        80: "20rem"
+        80: "20rem",
       },
       width: {
-        "90vw": "90vw"
-      }
+        "90vw": "90vw",
+      },
     },
-    gradientsFourSteps: theme => ({
+    gradientsFourSteps: (theme) => ({
       full: [
         theme("colors.tertiary"),
         theme("colors.primary"),
         theme("colors.secondary"),
-        theme("colors.tertiary")
-      ]
-    })
+        theme("colors.tertiary"),
+      ],
+    }),
   },
   variants: {},
   plugins: [
-    function({ addUtilities, e, theme }) {
+    require("tailwindcss-pseudo-elements"),
+    function ({ addUtilities, e, theme }) {
       const gradients = theme("gradientsFourSteps", {});
+
+      const bodyBorder = {
+        ".body-border": {
+          background: theme("colors.primary"),
+          content: "''",
+          left: "0",
+          height: "8px",
+          position: "absolute",
+          top: "0",
+          width: "100%",
+        },
+      };
 
       const utilities = _.map(
         gradients,
         ([start, betweenStart, betweenEnd, end], name) => ({
           [`.bg-gradient-${e(name)}`]: {
-            backgroundImage: `linear-gradient(-135deg, ${start}, ${betweenStart}, ${betweenEnd}, ${end})`
-          }
+            backgroundImage: `linear-gradient(-135deg, ${start}, ${betweenStart}, ${betweenEnd}, ${end})`,
+          },
         })
       );
 
       addUtilities(utilities);
-    }
-  ]
+      addUtilities(
+        {
+          ".body-border": {
+            background: theme("colors.primary"),
+            content: "''",
+            left: "0",
+            height: "8px",
+            position: "absolute",
+            top: "0",
+            width: "100%",
+          },
+        },
+        ["before"]
+      );
+    },
+  ],
 };
