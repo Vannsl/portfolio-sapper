@@ -8,7 +8,7 @@
 <Header title="about me" />
 <div>
   <Article background="sm:bg-white dark:bg-dark">
-    <div class="sm:my-10 my-5 mx-auto border dark:border-dark rounded-full w-full max-w-300-px h-300-px bg-center bg-cover shadow-md" style="background-image: url('vannsl.webp')"></div>
+    <div class="sm:my-10 my-5 mx-auto border dark:border-dark rounded-full w-full max-w-300-px h-300-px bg-center bg-cover shadow-md" style="background-image: url('vannsl.jpg')"></div>
 
     <p class="md:px-4 text-tertiary dark:text-tertiary-light">
       Hi, nice to meet you!<br /><br />My name is Vanessa. I am a Web

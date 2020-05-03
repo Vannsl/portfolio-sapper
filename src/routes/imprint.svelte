@@ -106,7 +106,7 @@
           title="Freepik"
           >Freepik</a
         >
-        from
+        von
         <a
           href="https://www.flaticon.com/"
           rel="nofollow noopener noreferrer"
