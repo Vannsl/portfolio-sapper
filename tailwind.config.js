@@ -45,18 +45,6 @@ module.exports = {
     function ({ addUtilities, e, theme }) {
       const gradients = theme("gradientsFourSteps", {});
 
-      const bodyBorder = {
-        ".body-border": {
-          background: theme("colors.primary"),
-          content: "''",
-          left: "0",
-          height: "8px",
-          position: "absolute",
-          top: "0",
-          width: "100%",
-        },
-      };
-
       const utilities = _.map(
         gradients,
         ([start, betweenStart, betweenEnd, end], name) => ({
