@@ -27,11 +27,15 @@
   .fixed .selected::after {
     background-color: hsl(336.3, 78%, 42.8%);
   }
+
+  .trans {
+    transition: padding .5s, font-size .5s;
+  }
 </style>
 
 <svelte:window bind:scrollY={y} />
 
-<nav class="{y > 8 ? 'fixed shadow-lg bg-white text-tertiary' : 'absolute mt-2 text-white'} w-full z-10 flex justify-between uppercase tracking-wider">
+<nav class="{y > 8 ? 'fixed shadow-lg bg-white text-tertiary' : 'absolute mt-2 text-white p-2 sm:px-8 sm:py-4 sm:text-lg'} trans p-0 w-full z-10 flex justify-between uppercase tracking-wider  {y > 8 || segment === undefined ? '' : 'bg-dark bg-opacity-75 sm:bg-opacity-0'}">
   <ul class={listClasses}>
     <li class={itemClasses}>
       <a
