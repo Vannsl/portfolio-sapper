@@ -43,6 +43,7 @@ module.exports = {
   },
   variants: {
     backgroundColor: ["dark"],
+    borderColor: ["dark"],
     textColor: ["dark"],
   },
   plugins: [

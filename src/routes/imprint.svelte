@@ -96,5 +96,24 @@
         wir derartige Inhalte umgehend entfernen.
       </p>
     </section>
+    <section class="mb-4">
+      <HeadlineSecondary>SVG Icons</HeadlineSecondary>
+      <p>
+        Sonne und Mond Icons stammen von
+        <a
+          href="https://www.flaticon.com/authors/freepik"
+          rel="nofollow noopener noreferrer"
+          title="Freepik"
+          >Freepik</a
+        >
+        from
+        <a
+          href="https://www.flaticon.com/"
+          rel="nofollow noopener noreferrer"
+          title="Flaticon"
+          >www.flaticon.com</a
+        >.
+      </p>
+    </section>
   </div>
 </article>
