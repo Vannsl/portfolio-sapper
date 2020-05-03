@@ -3,11 +3,16 @@
 </script>
 
 <footer class="pt-4 pb-8 bg-tertiary text-white text-center">
-  <div class="mb-2">
+  <p class="mb-2">
     <SocialMediaList />
-  </div>
-  <div class="mb-2">
-    <a href="mailto:mail@vannsl.io">mail@vannsl.io</a>
-  </div>
-  <div>© Vanessa Böhner 2015-2020</div>
+  </p>
+  <p class="mb-2">
+    <a href="mailto:mail@vannsl.io" class="hover:underline">mail@vannsl.io</a>
+  </p>
+  <p class="mb-2">
+    © Vanessa Böhner 2015-2020
+  </p>
+  <p>
+    <a href="/imprint" class="hover:underline">Imprint</a>
+  </p>
 </footer>
