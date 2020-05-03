@@ -1,3 +1,3 @@
-<h3 class="mb-4 text-tertiary tracking-wider">
+<h3 class="mb-4 text-tertiary dark:text-tertiary-light tracking-wider">
   <slot></slot>
 </h3>

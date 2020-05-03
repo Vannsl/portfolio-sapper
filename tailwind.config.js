@@ -10,7 +10,9 @@ module.exports = {
         primary: "hsl(339.6, 82.2%, 51.6%)",
         secondary: "hsl(35.8, 100%, 50%)",
         tertiary: "hsl(336.3, 78%, 42.8%)",
+        "tertiary-light": "hsl(335.9, 80.2%, 64.1%)",
         link: "hsl(250, 100%, 40%)",
+        "link-light": "hsl(249.8, 100%, 81%)",
         dark: "hsl(0, 0%, 12.9%)",
         transparent: "hsla(0, 0%, 100%, 0.1)",
       },
@@ -39,8 +41,12 @@ module.exports = {
       ],
     }),
   },
-  variants: {},
+  variants: {
+    backgroundColor: ["dark"],
+    textColor: ["dark"],
+  },
   plugins: [
+    require("tailwindcss-dark-mode")(),
     require("tailwindcss-pseudo-elements"),
     function ({ addUtilities, e, theme }) {
       const gradients = theme("gradientsFourSteps", {});

@@ -16,7 +16,7 @@
 
 <Article>
   <section>
-    <p class="md:text-center text-left text-tertiary">
+    <p class="md:text-center text-left text-tertiary dark:text-tertiary-light">
       The era of the desktop web is over. The era of the mobile web will end
       soon. The embedded web era will come. Digital products in the web have to
       be designed and developed for the best user experience. That's what I do.

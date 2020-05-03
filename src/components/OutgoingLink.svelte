@@ -2,7 +2,7 @@
   import OutgoingSvg from "./OutgoingSvg.svelte";
 
   export let href;
-  export let color = "text-link";
+  export let color = "text-link dark:text-link-light";
 </script>
 
 <a

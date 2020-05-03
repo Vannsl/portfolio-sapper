@@ -35,7 +35,7 @@
 
 <svelte:window bind:scrollY={y} />
 
-<nav class="{y > 8 ? 'fixed shadow-lg bg-white text-tertiary' : 'absolute mt-2 text-white p-2 sm:px-8 sm:py-4 sm:text-lg'} trans p-0 w-full z-10 flex justify-between uppercase tracking-wider  {y > 8 || segment === undefined || segment === 'imprint' ? '' : 'bg-dark bg-opacity-75 sm:bg-opacity-0'}">
+<nav class="{y > 8 ? 'fixed shadow-lg bg-white dark:bg-dark text-tertiary dark:text-tertiary-light' : 'absolute mt-2 text-white p-2 sm:px-8 sm:py-4 sm:text-lg'} trans p-0 w-full z-10 flex justify-between uppercase tracking-wider  {y > 8 || segment === undefined || segment === 'imprint' ? '' : 'bg-dark bg-opacity-75 sm:bg-opacity-0'}">
   <ul class={listClasses}>
     <li class={itemClasses}>
       <a

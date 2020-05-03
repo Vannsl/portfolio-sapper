@@ -7,10 +7,10 @@
 
 <Header title="about me" />
 <div>
-  <Article background="sm:bg-white">
+  <Article background="sm:bg-white dark:bg-dark">
     <div class="sm:my-10 my-5 mx-auto border rounded-full w-full max-w-300-px h-300-px bg-center bg-cover shadow-md" style="background-image: url('vannsl.webp')"></div>
 
-    <p class="md:px-4 text-tertiary">
+    <p class="md:px-4 text-tertiary dark:text-tertiary-light">
       Hi, nice to meet you!<br /><br />My name is Vanessa. I am a Web
       Developer.<br /><br />
       Currently, I am a Senior Product Engineer at SinnerSchrader. Since 2019 I am

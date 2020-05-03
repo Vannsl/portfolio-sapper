@@ -6,6 +6,6 @@
   }
 </style>
 
-<ul class="text-tertiary">
+<ul class="text-tertiary dark:text-tertiary-light">
   <slot></slot>
 </ul>
