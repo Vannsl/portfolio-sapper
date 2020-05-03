@@ -65,9 +65,9 @@
 
 <svelte:window bind:scrollY={y} />
 
-<nav class="{y > 8 ? 'fixed shadow-lg bg-white dark:bg-dark text-tertiary dark:text-tertiary-light' : 'absolute mt-2 text-white p-2 sm:px-8 sm:py-4 sm:text-lg'} trans p-0 w-full z-10 flex justify-between uppercase tracking-wider  {y > 8 || segment === undefined || segment === 'imprint' ? '' : 'bg-dark bg-opacity-75 sm:bg-opacity-0'}">
+<nav class="{y > 8 ? 'fixed shadow-lg bg-white dark:bg-dark text-tertiary dark:text-tertiary-light' : 'absolute mt-2 text-white p-2 sm:px-8 sm:py-4 sm:text-lg'} trans p-0 w-full z-10 flex justify-between uppercase tracking-wider  {y > 8 || segment === undefined || segment === 'imprint' ? '' : 'bg-dark bg-opacity-75 sm:bg-opacity-0'} text-sm sm:text-base">
   <ul class={listClasses}>
-    <li class={itemClasses}>
+    <li class="{itemClasses} md:ml-2">
       <a
         class:selected={segment === undefined}
         href="."
@@ -96,7 +96,7 @@
       <button
         aria-label="Activate dark mode"
         class:invisible={isLoading}
-        class="mt-4 mx-4 w-6 cursor-pointer opacity-50 hover:opacity-100"
+        class="mt-4 mx-2 sm:mx-4 w-5 sm:w-6 cursor-pointer opacity-50 hover:opacity-100"
         on:click={toggleMode}
       >
         {#if darkMode}
