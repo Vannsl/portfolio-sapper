@@ -92,18 +92,5 @@
         </a>
       </li>
     {/each}
-    <li class={itemClasses}>
-      {#if loaded}
-        <button aria-label="Activate dark mode" class="mt-4 mx-4 w-6 cursor-pointer opacity-50 hover:opacity-100" on:click={toggleMode}>
-          {#if darkMode}
-            <Sun></Sun>
-          {:else}
-            <Moon></Moon>
-          {/if}
-        </button>
-      {:else}
-        <div class="mt-4 mx-4 w-6"></div>
-      {/if}
-    </li>
   </ul>
 </nav>
