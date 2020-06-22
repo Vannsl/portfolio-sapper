@@ -353,6 +353,7 @@
 </svelte:head>
 
 <main in:fadeIn out:fadeOut>
+  <SmallHero segment="speaking" type="contain" />
   <Header title="podcasts & interviews" />
   <Spacing />
   <Article>
@@ -372,7 +373,6 @@
     </List>
   </Article>
   <Spacing />
-  <SmallHero segment="speaking" type="contain" />
   <Header title="talks" />
   <Spacing />
   <Article>
