@@ -9,9 +9,9 @@
   import WideArticle from "./WideArticle.svelte";
   import Tags from "./Tags.svelte";
 
-  const markup = ["HTML5", "Pug", "Mustache", "Handlebars", "CSS3", "SASS", "BEM", "Tailwindcss"]
+  const markup = ["HTML5", "Pug", "Mustache", "Handlebars", "CSS3", "SASS", "BEM", "Bulma", "Tailwindcss"]
   const js = ["ES6", "TypeScript", "Vue.js", "Nuxt.js", "Svelte.js", "Sapper.js", "web components", "Storybook", "Webpack", "RollUp"]
-  const tooling = ["Jest", "Cypress", "Puppeteer", "Netlify", "Now.sh"]
+  const tooling = ["Jest", "Cypress", "Puppeteer", "Netlify", "Vercel"]
 </script>
 
 <Article>
