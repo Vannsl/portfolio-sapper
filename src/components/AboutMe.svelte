@@ -19,7 +19,7 @@
       <OutgoingLink href="https://www.expect-exception.fail">expect(Exception)</OutgoingLink>.
       Also in 2020, I was member of the JS Kongress Program Committee. I work as a Software Developer at
       <OutgoingLink href="https://www.thelifecompany.com/">The Life Company</OutgoingLink>.
-      From 2000-2015 I studied Media Informatics with a focus on Human-Computer-Interaction. Now I am striving to
+      From 2010-2015 I studied Media Informatics with a focus on Human-Computer-Interaction. Now I am striving to
       provide customers with the best experience possible while creating modern
       and accessible web applications. When I writes code, she do it not for myself but the next developer.<br><br>
       Feel free to send me a message on <OutgoingLink href="https://twitter.com/vannsl">Twitter</OutgoingLink>.
