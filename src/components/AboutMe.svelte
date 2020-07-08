@@ -12,16 +12,16 @@
 
     <p class="md:px-4 text-tertiary dark:text-tertiary-light">
       Hi, nice to meet you!<br /><br />My name is Vanessa. I am a Web
-      Developer.<br /><br />
-      Currently, I am a Senior Product Engineer at SinnerSchrader. Since 2019 I am
-      the Vue Vixens Munich City Coordinator, helping women with their first
-      coding and speaking experiences. I am a member of the JS Kongress Program
-      Committee 2020.<br /><br />I created my first website at the age of ten. I have
-      been passionate about web development ever since. I studied Media
-      Informatics with a focus on Human-Computer-Interaction. Now I am striving to
+      Developer. My nickname is Vannsl since I lost various passwords for Vanny in 1998.<br /><br />
+      I'm a Frontend Foxes Chapter Leader,
+      helping others with their first coding and speaking experiences while
+      learning from them, too. In 2020 I started the Frontend Testing Podcast
+      <OutgoingLink href="https://www.expect-exception.fail">expect(Exception)</OutgoingLink>.
+      Also in 2020, I was member of the JS Kongress Program Committee. I work as a Software Developer at
+      <OutgoingLink href="https://www.thelifecompany.com/">The Life Company</OutgoingLink>.
+      From 2000-2015 I studied Media Informatics with a focus on Human-Computer-Interaction. Now I am striving to
       provide customers with the best experience possible while creating modern
-      and accessible web applications. When I write code, I do it not
-      for myself but for the next developer. <br><br>
+      and accessible web applications. When I writes code, she do it not for myself but the next developer.<br><br>
       Feel free to send me a message on <OutgoingLink href="https://twitter.com/vannsl">Twitter</OutgoingLink>.
     </p>
     <Spacing></Spacing>
