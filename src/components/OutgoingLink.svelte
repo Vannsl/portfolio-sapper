@@ -10,7 +10,7 @@
   href
   }
   target="_blank"
-  rel="nofollow, noreferrer, noopener"
+  rel="noopener"
   class="{color} hover:underline"
 >
   <slot></slot><OutgoingSvg alt=""></OutgoingSvg
