@@ -17,13 +17,13 @@
       helping others with their first coding and speaking experiences while
       learning from them, too. In 2020 I started the Frontend Testing Podcast
       <OutgoingLink href="https://www.expect-exception.fail">expect(Exception)</OutgoingLink>.
-      Also in 2020, I was member of the JS Kongress Program Committee. I work as a Software Developer at
+      Also in 2020, I was a member of the JS Kongress Program Committee. I work as a Software Developer at
       <OutgoingLink href="https://www.zage.life/">ZAGE</OutgoingLink> by
       <OutgoingLink href="https://www.thelifecompany.com/">The Life Company</OutgoingLink>.
       From 2010-2015 I studied Media Informatics with a focus on Human-Computer-Interaction. Now I am striving to
       provide customers with the best experience possible while creating modern
-      and accessible web applications. When I writes code, she do it not for myself but the next developer.
-      In my spare time I like to do some sports and drink (for scientific purposes) wine on my Wine Podcast 
+      and accessible web applications. When I write code, I don't do it for myself but for the next developer.
+      In my spare time, I like to do some sports and drink (for scientific purposes) wine on my Wine Podcast 
       <OutgoingLink href="https://www.ausbaufaehig-podcast.de/">Ausbaufähig</OutgoingLink>.<br><br>
       Feel free to send me a message on <OutgoingLink href="https://twitter.com/vannsl">Twitter</OutgoingLink>.
     </p>
