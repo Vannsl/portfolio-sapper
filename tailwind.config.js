@@ -1,6 +1,7 @@
 const _ = require("lodash");
 
 module.exports = {
+  purge: false,
   theme: {
     extend: {
       boxShadow: {
