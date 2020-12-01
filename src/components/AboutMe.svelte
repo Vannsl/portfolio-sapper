@@ -18,7 +18,7 @@
       learning from them, too. In 2020 I started the Frontend Testing Podcast
       <OutgoingLink href="https://www.expect-exception.fail">expect(Exception)</OutgoingLink>.
       Also in 2020, I was a member of the JS Kongress Program Committee. I work as a Software Developer at
-      <OutgoingLink href="https://www.zage.life/">ZAGE</OutgoingLink> by
+      <OutgoingLink href="https://www.zage.life/?utm_source=vannsl&amp;utm_medium=referral&amp;utm_campaign=website&amp;utm_content=frontend">ZAGE</OutgoingLink> by
       <OutgoingLink href="https://www.thelifecompany.com/">The Life Company</OutgoingLink>.
       From 2010-2015 I studied Media Informatics with a focus on Human-Computer-Interaction. Now I am striving to
       provide customers with the best experience possible while creating modern
