@@ -57,7 +57,7 @@
 
 <li class="{ item.emoji }">
   <span class="font-bold">{ item.title }</span>
-
+  <br>
   {#if item.eventSrc && item.event }<OutgoingLink href="{item.eventSrc}"
     >{item.event}</OutgoingLink
   >

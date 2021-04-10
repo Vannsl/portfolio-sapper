@@ -44,7 +44,7 @@
 </style>
 
 <li class="{ item.emoji }">
-  <OutgoingLink href="{ item.src }">{ item.title }</OutgoingLink>, {
+  <OutgoingLink href="{ item.src }">{ item.title }</OutgoingLink> {
   item.publisher }{#if item.episode }, { item.episode }{/if}
   <p>
     { item.date }
