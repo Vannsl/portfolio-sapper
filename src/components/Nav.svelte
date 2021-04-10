@@ -5,8 +5,7 @@
 
   export let segment;
   const items = ["speaking", "writing"];
-  const itemClasses = "block float-left";
-  const listClasses = "m-0 p-0 clearfix";
+  const listClasses = "flex items-center";
   const linkClasses = "block py-4 px-2 hover:cursor-pointer";
   let y;
 
@@ -71,7 +70,7 @@
   </div>
   <div class="{y > 8 ? 'bg-white dark:bg-dark text-tertiary dark:text-tertiary-light' : 'text-white p-2 sm:px-8 sm:py-4 sm:text-lg'} trans p-0 flex justify-between {y > 8 || segment === undefined || segment === 'imprint' ? '' : 'bg-dark bg-opacity-75 sm:bg-opacity-0'}">
     <ul class="{listClasses}">
-      <li class="{itemClasses} md:ml-2">
+      <li class="md:ml-2">
         <a
           class:selected={segment === undefined}
           href="."
@@ -85,7 +84,7 @@
 
     <ul class={listClasses}>
       {#each items as item}
-        <li class={itemClasses}>
+        <li>
           <a
             class:selected={segment === item}
             href={item}
@@ -96,11 +95,11 @@
           </a>
         </li>
       {/each}
-      <li class={itemClasses}>
+      <li>
         <button
           aria-label="Activate dark mode"
           class:invisible={isLoading}
-          class="mt-2 pt-2 mx-1 px-1 sm:mx-2 sm:mx-2 w-5 sm:w-6 cursor-pointer opacity-50 hover:opacity-100"
+          class="p-3 w-12 cursor-pointer opacity-50 hover:opacity-100"
           on:click={toggleMode}
         >
           {#if darkMode}

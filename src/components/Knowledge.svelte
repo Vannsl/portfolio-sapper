@@ -33,7 +33,7 @@
       <HeadlineTertiary>
         Web Development
       </HeadlineTertiary>
-      <Paragraph isTertiary="{true}">
+      <Paragraph>
         I build websites in terms of the look and feel and how users will
         interact with them across all common browsers and devices. I love to
         code, no matter if the project is organized in a <strong>big monolith</strong> or in <strong>tiny
@@ -47,7 +47,7 @@
       <HeadlineTertiary>
         Interaction Design
       </HeadlineTertiary>
-      <Paragraph isPrimary="{false}">
+      <Paragraph>
         Frameworks are there for organizing our minds, not our code. My focus is 
         on both the
         <span class="font-bold">developer & designer experience (DX)</span>

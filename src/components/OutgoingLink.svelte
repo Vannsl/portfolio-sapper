@@ -13,5 +13,5 @@
   rel="noopener"
   class="{color} hover:underline"
 >
-  <slot></slot><OutgoingSvg alt=""></OutgoingSvg
+  <slot></slot><OutgoingSvg ></OutgoingSvg
 ></a>
