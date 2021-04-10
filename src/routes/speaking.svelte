@@ -7,24 +7,32 @@
   import List from "../components/List.svelte";
   import ListItem from "../components/ListItem.svelte";
   import SimpleListItem from "../components/SimpleListItem.svelte";
-  import OutgoingLink from "../components/OutgoingLink.svelte";
   import Spacing from "../components/Spacing.svelte";
 
   export let speakingUpcoming = [
     {
-      title: "[CANCELLED] Testing Techniques for Component Driven Development",
-      event: "Think About!",
+      title: "Horizonterweiterung: State Management mit Composables",
+      event: "enterJS VueDay",
       eventSrc:
-        "https://think-about.io/events/2020/talks/component_driven_development.html",
-      location: "Cologne",
-      date: "04/06/2020",
-      emoji: "germany",
+        "https://enterjs.de/vueday.php",
+      location: "online",
+      date: "15/06/2021",
+      emoji: "www",
     },
   ];
 
   export let speakingPast = [
     {
-      title: "[ONLINE ONLY] Microfrontends: The Good, The Bad and The Ugly",
+      title: "Microfrontends: The Good, The Bad and The Ugly",
+      event: "JSWorld Conference",
+      eventSrc: "https://frontenddeveloperlove.com/",
+      location: "online",
+      slidesSrc: "https://de.slideshare.net/VanessaBhner/microfrontends-the-good-the-bad-and-the-ugly",
+      date: "23/02/2021",
+      emoji: "eee",
+    },
+    {
+      title: "Microfrontends: The Good, The Bad and The Ugly",
       event: "Munich Frontend Conference",
       eventSrc: "https://frontconf.com/",
       location: "Munich",
@@ -380,10 +388,7 @@
     <div
       class="mb-4 p-4 border-2 border-dashed border-primary bg-dark text-white">
       <p>
-        Due to COVID-19 I won't attend any conferences, workshops or MeetUps
-        (unless fully remote)
-        <s>for 2 months</s>
-        until it's over.
+        Due to COVID-19 I will only attend remote only conferences
       </p>
     </div>
     <List>

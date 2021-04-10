@@ -10,6 +10,20 @@
 
   export let publications = [
     {
+      title: "Webpacker, Vue 3, and TypeScript",
+      src: "https://dev.to/vannsl/webpacker-vue-3-and-typescript-1i99",
+      publisher: "dev.to",
+      date: "17/03/2021",
+      emoji: "publications",
+    },
+    {
+      title: "Vue3 on Rails",
+      src: "https://dev.to/vannsl/vue3-on-rails-l9d",
+      publisher: "dev.to",
+      date: "11/10/2020",
+      emoji: "publications",
+    },
+    {
       title: "Tips for remote goodbyes",
       src: "https://dev.to/vannsl/tips-for-remote-goodbyes-2o15",
       publisher: "dev.to",

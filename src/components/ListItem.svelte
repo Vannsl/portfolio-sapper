@@ -49,6 +49,10 @@
   .united-kingdom:before {
     content: "🇬🇧";
   }
+
+  .www:before {
+    content: "🌐"
+  }
 </style>
 
 <li class="{ item.emoji }">
