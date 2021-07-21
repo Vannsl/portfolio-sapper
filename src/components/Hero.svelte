@@ -36,7 +36,7 @@
         </span>
       </div>
       <h1 class="mt-10 text-5xl uppercase tracking-widest font-bold">
-        Vanessa Böhner
+        Vanessa Otto
       </h1>
       <p>
         <span class="text-3xl tracking-wider">frontend developer</span><br />

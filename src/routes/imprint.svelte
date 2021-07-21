@@ -18,7 +18,7 @@
     <section class="mb-4">
       <HeadlineSecondary>Angaben gemäß § 5 TMG</HeadlineSecondary>
       <p>
-        Vanessa Böhner<br />
+        Vanessa Otto<br />
         Egilbertstr. 13<br />
         85354 Freising
       </p>

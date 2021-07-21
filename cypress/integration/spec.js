@@ -4,7 +4,7 @@ describe("Vannsl", () => {
   });
 
   it("has the correct <h1>", () => {
-    cy.contains("h1", "Vanessa Böhner");
+    cy.contains("h1", "Vanessa Otto");
   });
 
   it("navigates to /speaking", () => {
