@@ -153,7 +153,7 @@
     {
       title:
         "How to build a static website in two and a half days with Nuxt and TailwindCSS",
-      event: "TechDevision Tech Talk",
+      event: "TechDivision Tech Talk",
       eventSrc: "https://www.techdivision.com/unternehmen/veranstaltungen.html",
       location: "Munich",
       date: "21/02/2019",
@@ -185,7 +185,7 @@
     },
     {
       title: "Vue Single File Components and Composing",
-      event: "TechDevision Tech Talk",
+      event: "TechDivision Tech Talk",
       eventSrc:
         "https://www.meetup.com/de-DE/TechDivision-TechTalk-Munchen/events/254404298/",
       location: "Munich",
