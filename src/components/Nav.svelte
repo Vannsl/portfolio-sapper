@@ -64,10 +64,7 @@
 
 <svelte:window bind:scrollY={y} />
 
-<nav class="{y > 8 ? 'fixed shadow-lg' : 'absolute mt-2'} w-full z-10 uppercase tracking-wider text-sm sm:text-base">
-  <div class="p-1 text-sm text-center bg-dark text-white">
-    #nocovid
-  </div>
+<nav class="{y > 8 ? 'fixed shadow-lg' : 'absolute'} w-full z-10 uppercase tracking-wider text-sm sm:text-base">
   <div class="{y > 8 ? 'bg-white dark:bg-dark text-tertiary dark:text-tertiary-light' : 'text-white p-2 sm:px-8 sm:py-4 sm:text-lg'} trans p-0 flex justify-between {y > 8 || segment === undefined || segment === 'imprint' ? '' : 'bg-dark bg-opacity-75 sm:bg-opacity-0'}">
     <ul class="{listClasses}">
       <li class="md:ml-2">

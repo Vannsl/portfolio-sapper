@@ -63,21 +63,6 @@ module.exports = {
       );
 
       addUtilities(utilities);
-      addUtilities(
-        {
-          ".body-border": {
-            background: theme("colors.primary"),
-            content: "''",
-            left: "0",
-            height: ".5rem",
-            position: "absolute",
-            top: "0",
-            width: "100%",
-            "z-index": "20",
-          },
-        },
-        ["before"]
-      );
     },
   ],
 };
