@@ -11,7 +11,7 @@
   }
   target="_blank"
   rel="noopener"
-  class="{color} py-3 block hover:underline"
+  class="{color} hover:underline"
 >
   <slot></slot><OutgoingSvg ></OutgoingSvg
 ></a>
