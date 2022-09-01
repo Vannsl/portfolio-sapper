@@ -26,7 +26,7 @@
     <section class="mb-4">
       <HeadlineSecondary>Kontakt</HeadlineSecondary>
       <p>
-        E-Mail: mail@expect-exception.fail
+        E-Mail: mail@vannsl.io
       </p>
     </section>
     <section class="mb-4">

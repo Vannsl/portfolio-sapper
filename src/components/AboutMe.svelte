@@ -16,7 +16,7 @@
       I'm a <OutgoingLink href="https://www.vuevixens.org/">Frontend Foxes</OutgoingLink> Chapter Leader,
       helping others with their first coding and speaking experiences while
       learning from them, too. In 2020 I started the Frontend Testing Podcast
-      <OutgoingLink href="https://www.expect-exception.fail">expect(Exception)</OutgoingLink>.
+      <OutgoingLink href="https://expect-exception.netlify.app/">expect(Exception)</OutgoingLink>.
       Also in 2020, I was a member of the JS Kongress Program Committee. I work as a Software Developer at
       <OutgoingLink href="https://www.zage.life/?utm_source=vannsl&amp;utm_medium=referral&amp;utm_campaign=website&amp;utm_content=frontend">ZAGE</OutgoingLink>.
       From 2010-2015 I studied Media Informatics with a focus on Human-Computer-Interaction. Now I am striving to
