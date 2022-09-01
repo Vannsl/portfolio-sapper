@@ -9,6 +9,7 @@ built with [Sapper](https://github.com/sveltejs/sapper) and [TailwindCSS](https:
 ```bash
 npm install # or yarn
 npm run dev
+npm run dev:tailwind
 ```
 
 ## Tests
