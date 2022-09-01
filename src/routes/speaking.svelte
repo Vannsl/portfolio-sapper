@@ -385,12 +385,6 @@
   <Spacing />
   <Article>
     <HeadlineTertiary>upcoming</HeadlineTertiary>
-    <div
-      class="mb-4 p-4 border-2 border-dashed border-primary bg-dark text-white">
-      <p>
-        Due to COVID-19 I will only attend remote only conferences
-      </p>
-    </div>
     <List>
       {#each speakingUpcoming as item (item.date)}
         <ListItem {item} />
