@@ -12,6 +12,13 @@
 
   export let speakingUpcoming = [
     {
+      title: "MC Vue.js Conf Berlin 😱",
+      event: "Vue.js Conf",
+      location: "online",
+      date: "05/10/2022",
+      emoji: "germany",
+    },
+    {
       title: "TBA: FrontMUC",
       event: "FrontMuc",
       location: "online",
@@ -453,10 +460,12 @@
   <Spacing />
   <Article>
     <HeadlineTertiary>podcasts</HeadlineTertiary>
-    <p class="mb-2">
+    <p class="mb-4">
       Since Nov' 2020 I'm a proud Co-host of the <OutgoingLink
         href="https://workingdraft.de/">Working Draft</OutgoingLink
-      > podcast.
+      > podcast. I host the Frontend Testing Podcast <OutgoingLink
+        href="https://www.workingdraft.de">expect(Exception)</OutgoingLink
+      >.
     </p>
     <List>
       {#each podcasts as item (item.date)}
