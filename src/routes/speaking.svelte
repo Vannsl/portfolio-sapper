@@ -341,6 +341,13 @@
 
   export let interviews = [
     {
+      title: "State of Vue March 2022",
+      src: "https://www.youtube.com/watch?v=BUUupT4zfA0",
+      publisher: "ThisDot",
+      date: "24/03/2022",
+      emoji: "videointerviews",
+    },
+    {
       title:
         "Vue.js: Nicht nur für neue Projekte eine gute Wahl | Vanessa Böhner im Interview | JS Days 2019",
       src: "https://www.youtube.com/watch?v=-tm2o4NHme4",
