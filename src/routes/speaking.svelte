@@ -7,29 +7,53 @@
   import List from "../components/List.svelte";
   import ListItem from "../components/ListItem.svelte";
   import SimpleListItem from "../components/SimpleListItem.svelte";
+  import OutgoingLink from "../components/OutgoingLink.svelte";
   import Spacing from "../components/Spacing.svelte";
 
   export let speakingUpcoming = [
     {
-      title: "Horizonterweiterung: State Management mit Composables",
-      event: "enterJS VueDay",
-      eventSrc:
-        "https://enterjs.de/vueday.php",
+      title: "TBA: FrontMUC",
+      event: "FrontMuc",
       location: "online",
-      date: "15/06/2021",
-      emoji: "www",
+      date: "20/10/2022",
+      emoji: "germany",
     },
   ];
 
   export let speakingPast = [
     {
+      title: "State Management with Composition API",
+      event: "Vue.js Roadshow",
+      eventSrc: "https://barcelona.vuejs.amsterdam/",
+      location: "Barcelona",
+      date: "01/07/2022",
+      emoji: "spain",
+    },
+    {
+      title: "State Management with Composition API",
+      event: "Vue.js Amsterdam",
+      eventSrc: "https://www.vuejs.amsterdam/program",
+      location: "Amsterdam",
+      date: "03/06/2022",
+      emoji: "netherlands",
+    },
+    {
+      title: "Horizonterweiterung: State Management mit Composables",
+      event: "enterJS VueDay",
+      eventSrc: "https://enterjs.de/vueday.php",
+      location: "online",
+      date: "15/06/2021",
+      emoji: "www",
+    },
+    {
       title: "Microfrontends: The Good, The Bad and The Ugly",
       event: "JSWorld Conference",
       eventSrc: "https://frontenddeveloperlove.com/",
       location: "online",
-      slidesSrc: "https://de.slideshare.net/VanessaBhner/microfrontends-the-good-the-bad-and-the-ugly",
+      slidesSrc:
+        "https://de.slideshare.net/VanessaBhner/microfrontends-the-good-the-bad-and-the-ugly",
       date: "23/02/2021",
-      emoji: "eee",
+      emoji: "www",
     },
     {
       title: "Microfrontends: The Good, The Bad and The Ugly",
@@ -260,8 +284,7 @@
   export let podcasts = [
     {
       title: "Svelte",
-      src:
-        "https://programmierbar.buzzsprout.com/176239/4238645-folge-64-svelte-mit-vanessa-bohner",
+      src: "https://programmierbar.buzzsprout.com/176239/4238645-folge-64-svelte-mit-vanessa-bohner",
       publisher: "programmierbar",
       episode: "Folge 64",
       date: "19/06/2020",
@@ -320,7 +343,18 @@
     },
   ];
 
-  export let mentoring = [
+  export let mentoringUpcoming = [
+    {
+      title: "State Management with Pinia",
+      event: "Vue.js Conf",
+      eventSrc: "https://conf.vuejs.de/workshops/state-management-with-pinia/",
+      location: "Berlin",
+      date: "04/10/2022",
+      emoji: "mentoring",
+    },
+  ];
+
+  export let mentoringPast = [
     {
       title: "Vue Vixens Full Day Workshop",
       event: "ScriptConf",
@@ -362,10 +396,68 @@
 
 <main in:fadeIn out:fadeOut>
   <SmallHero segment="speaking" type="contain" />
+  <Header title="talks" />
+  <Spacing />
+  <Article>
+    <HeadlineTertiary>upcoming</HeadlineTertiary>
+    <List>
+      {#each speakingUpcoming as item (item.date)}
+        <ListItem {item} />
+      {/each}
+    </List>
+    <details>
+      <summary>
+        <h3
+          class=" text-tertiary dark:text-tertiary-light tracking-wider inline ml-4"
+        >
+          past
+        </h3>
+      </summary>
+      <div class="mt-4">
+        <List>
+          {#each speakingPast as item (item.date)}
+            <ListItem {item} />
+          {/each}
+        </List>
+      </div>
+    </details>
+  </Article>
+  <Spacing />
+  <Header title="mentoring & workshops" />
+  <Spacing />
+  <Article>
+    <List>
+      {#each mentoringUpcoming as item (item.date)}
+        <ListItem {item} />
+      {/each}
+    </List>
+    <details>
+      <summary>
+        <h3
+          class=" text-tertiary dark:text-tertiary-light tracking-wider inline ml-4"
+        >
+          past
+        </h3>
+      </summary>
+      <div class="mt-4">
+        <List>
+          {#each mentoringPast as item (item.date)}
+            <ListItem {item} />
+          {/each}
+        </List>
+      </div>
+    </details>
+  </Article>
+  <Spacing />
   <Header title="podcasts & interviews" />
   <Spacing />
   <Article>
     <HeadlineTertiary>podcasts</HeadlineTertiary>
+    <p class="mb-2">
+      Since Nov' 2020 I'm a proud Co-host of the <OutgoingLink
+        href="https://workingdraft.de/">Working Draft</OutgoingLink
+      > podcast.
+    </p>
     <List>
       {#each podcasts as item (item.date)}
         <SimpleListItem {item} />
@@ -377,33 +469,6 @@
     <List>
       {#each interviews as item (item.date)}
         <SimpleListItem {item} />
-      {/each}
-    </List>
-  </Article>
-  <Spacing />
-  <Header title="talks" />
-  <Spacing />
-  <Article>
-    <HeadlineTertiary>upcoming</HeadlineTertiary>
-    <List>
-      {#each speakingUpcoming as item (item.date)}
-        <ListItem {item} />
-      {/each}
-    </List>
-    <HeadlineTertiary>past</HeadlineTertiary>
-    <List>
-      {#each speakingPast as item (item.date)}
-        <ListItem {item} />
-      {/each}
-    </List>
-  </Article>
-  <Spacing />
-  <Header title="mentoring & workshops" />
-  <Spacing />
-  <Article>
-    <List>
-      {#each mentoring as item (item.date)}
-        <ListItem {item} />
       {/each}
     </List>
   </Article>

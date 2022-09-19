@@ -4,6 +4,31 @@
   export let item = {};
 </script>
 
+<li class={item.emoji}>
+  <span class="font-bold">{item.title}</span>
+  <br />
+  {#if item.eventSrc && item.event}<OutgoingLink href={item.eventSrc}
+      >{item.event}</OutgoingLink
+    >
+  {/if}
+  {#if item.videoSrc || item.slidesSrc || item.codebases}
+    <p>
+      {#if item.videoSrc}
+        <OutgoingLink href={item.videoSrc}>Video</OutgoingLink>
+      {/if}
+      {#if item.slidesSrc}
+        <OutgoingLink href={item.slidesSrc}>Slides</OutgoingLink>
+      {/if}
+      {#if item.codebases}{#each item.codebases as codebase, i (codebase.src)}
+          <OutgoingLink href={codebase.src}>Codebase {i + 1}</OutgoingLink>
+        {/each}{/if}
+    </p>
+  {/if}
+  <p>
+    {item.date}, {item.location}
+  </p>
+</li>
+
 <style>
   li {
     list-style: none;
@@ -38,6 +63,14 @@
     content: "🇦🇹";
   }
 
+  .netherlands:before {
+    content: "🇳🇱";
+  }
+
+  .spain:before {
+    content: "🇪🇸";
+  }
+
   .czech-republic:before {
     content: "🇨🇿";
   }
@@ -51,29 +84,6 @@
   }
 
   .www:before {
-    content: "🌐"
+    content: "🌐";
   }
 </style>
-
-<li class="{ item.emoji }">
-  <span class="font-bold">{ item.title }</span>
-  <br>
-  {#if item.eventSrc && item.event }<OutgoingLink href="{item.eventSrc}"
-    >{item.event}</OutgoingLink
-  >
-  {/if} {#if item.videoSrc || item.slidesSrc || item.codebases }
-  <p>
-    {#if item.videoSrc }
-    <OutgoingLink href="{item.videoSrc}">Video</OutgoingLink>
-    {/if} {#if item.slidesSrc }
-    <OutgoingLink href="{item.slidesSrc}">Slides</OutgoingLink>
-    {/if} {#if item.codebases }{#each item.codebases as codebase, i
-    (codebase.src)}
-    <OutgoingLink href="{codebase.src}">Codebase { i + 1 }</OutgoingLink>
-    {/each}{/if}
-  </p>
-  {/if}
-  <p>
-    { item.date }, { item.location }
-  </p>
-</li>

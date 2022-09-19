@@ -8,25 +8,34 @@
 <Header title="about me" />
 <div>
   <Article background="sm:bg-white dark:bg-dark">
-    <div class="sm:my-10 my-5 mx-auto border dark:border-dark rounded-full w-full max-w-300-px h-300-px bg-center bg-cover shadow-md" style="background-image: url('vannsl.jpg')"></div>
+    <div
+      class="sm:my-10 my-5 mx-auto border dark:border-dark rounded-full w-full max-w-300-px h-300-px bg-center bg-cover shadow-md"
+      style="background-image: url('vannsl.jpg')"
+    />
 
     <p class="md:px-4 text-tertiary dark:text-tertiary-light">
-      Hi, nice to meet you!<br /><br />My name is Vanessa. I am a Web
-      Developer. My nickname is Vannsl since I lost various passwords for Vanny in 1998.<br /><br />
-      I'm a <OutgoingLink href="https://www.vuevixens.org/">Frontend Foxes</OutgoingLink> Chapter Leader,
-      helping others with their first coding and speaking experiences while
-      learning from them, too. In 2020 I started the Frontend Testing Podcast
-      <OutgoingLink href="https://expect-exception.netlify.app/">expect(Exception)</OutgoingLink>.
-      Also in 2020, I was a member of the JS Kongress Program Committee. I work as a Software Developer at
-      <OutgoingLink href="https://www.zage.life/?utm_source=vannsl&amp;utm_medium=referral&amp;utm_campaign=website&amp;utm_content=frontend">ZAGE</OutgoingLink>.
-      From 2010-2015 I studied Media Informatics with a focus on Human-Computer-Interaction. Now I am striving to
-      provide customers with the best experience possible while creating modern
-      and accessible web applications. When I write code, I don't do it for myself but for the next developer.
-      In my spare time, I like to do some sports and drink (for scientific purposes) wine on my Wine Podcast 
-      <OutgoingLink href="https://www.ausbaufaehig-podcast.de/">Ausbaufähig</OutgoingLink>.<br><br>
-      Feel free to send me a message on <OutgoingLink href="https://twitter.com/vannsl">Twitter</OutgoingLink>.
+      Hi, nice to meet you!<br />My name is Vanessa. I am a Web Developer. I
+      have an M.Sc in Media Informatics with a focus on
+      Human-Computer-Interaction. I'm Frontend Lead at
+      <OutgoingLink
+        href="https://www.zavvy.io/?utm_source=vannsl&amp;utm_medium=referral&amp;utm_campaign=website&amp;utm_content=frontend"
+        >Zavvy</OutgoingLink
+      >. I'm a co-host of the podcasts <OutgoingLink
+        href="https://expect-exception.netlify.app/"
+        >expect(Exception)</OutgoingLink
+      >, <OutgoingLink href="https://www.workingdraft.de"
+        >expect(Exception)</OutgoingLink
+      >, and <OutgoingLink href="https://ausbaufaehig-podcast.de/"
+        >Ausbaufähig</OutgoingLink
+      >. I was the Chapter Leader for DACH of the <OutgoingLink
+        href="https://www.vuevixens.org/">Frontend Foxes</OutgoingLink
+      > until 2021. I was a member of the JS Kongress Program Committee 2020.<br
+      /><br />
+      Feel free to send me a message on <OutgoingLink
+        href="https://twitter.com/vannsl">Twitter</OutgoingLink
+      >.
     </p>
-    <Spacing></Spacing>
-    <Spacing></Spacing>
+    <Spacing />
+    <Spacing />
   </Article>
 </div>
