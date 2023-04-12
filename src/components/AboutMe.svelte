@@ -24,7 +24,7 @@
         href="https://expect-exception.netlify.app/"
         >expect(Exception)</OutgoingLink
       >, <OutgoingLink href="https://www.workingdraft.de"
-        >expect(Exception)</OutgoingLink
+        >Working Draft</OutgoingLink
       >, and <OutgoingLink href="https://ausbaufaehig-podcast.de/"
         >Ausbaufähig</OutgoingLink
       >. I was the Chapter Leader for DACH of the <OutgoingLink
