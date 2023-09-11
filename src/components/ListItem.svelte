@@ -79,6 +79,10 @@
     content: "🇩🇪";
   }
 
+  .italy:before {
+    content: "🇮🇹";
+  }
+
   .united-kingdom:before {
     content: "🇬🇧";
   }

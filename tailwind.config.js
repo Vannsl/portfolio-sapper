@@ -27,7 +27,7 @@ module.exports = {
         "300-px": "300px",
       },
       minHeight: {
-        "700-px": "700px"
+        "700-px": "700px",
       },
       padding: {
         80: "20rem",

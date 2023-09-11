@@ -12,7 +12,26 @@
 
   export let speakingUpcoming = [
     {
-      title: "MC Vue.js Conf Berlin 😱",
+      title: "Unleashing the Power of AI: Integrating Tiptap, OpenAI, and Vue.js",
+      event: "MunichJS September Meetup",
+      eventSrc: "https://www.meetup.com/munichjs-user-group/events/295733864/",
+      location: "Alasco, Munich",
+      date: "13/09/2023",
+      emoji: "germany",
+    },
+    {
+      title: "Unleashing the Power of AI: Integrating Tiptap, OpenAI, and Vue.js",
+      event: "vueday 2023",
+      eventSrc: "https://2023.vueday.it/index.html",
+      location: "Verona",
+      date: "10/11/2023",
+      emoji: "italy",
+    },
+  ];
+
+  export let speakingPast = [
+    {
+      title: "MC Vue.js Conf Berlin",
       event: "Vue.js Conf",
       location: "online",
       date: "05/10/2022",
@@ -25,9 +44,6 @@
       date: "20/10/2022",
       emoji: "germany",
     },
-  ];
-
-  export let speakingPast = [
     {
       title: "State Management with Composition API",
       event: "Vue.js Roadshow",
@@ -298,14 +314,6 @@
       emoji: "podcast",
     },
     {
-      title: "Cypress: E2E Testing",
-      src: "https://expect-exception.fail/podcast/1",
-      publisher: "expect(Exception)",
-      episode: "Episode 1",
-      date: "15/05/2020",
-      emoji: "podcast",
-    },
-    {
       title: "Svelte",
       src: "https://workingdraft.de/413/",
       publisher: "Working Draft",
@@ -358,7 +366,10 @@
   ];
 
   export let mentoringUpcoming = [
-    {
+  ];
+
+  export let mentoringPast = [
+  {
       title: "State Management with Pinia",
       event: "Vue.js Conf",
       eventSrc: "https://conf.vuejs.de/workshops/state-management-with-pinia/",
@@ -366,9 +377,6 @@
       date: "04/10/2022",
       emoji: "mentoring",
     },
-  ];
-
-  export let mentoringPast = [
     {
       title: "Vue Vixens Full Day Workshop",
       event: "ScriptConf",
@@ -472,7 +480,7 @@
         href="https://workingdraft.de/">Working Draft</OutgoingLink
       > podcast. I host the Frontend Testing Podcast <OutgoingLink
         href="https://www.workingdraft.de">expect(Exception)</OutgoingLink
-      >.
+      >. Below, find a list of podcasts where I've been a guest:
     </p>
     <List>
       {#each podcasts as item (item.date)}

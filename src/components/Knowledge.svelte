@@ -9,9 +9,10 @@
   import WideArticle from "./WideArticle.svelte";
   import Tags from "./Tags.svelte";
 
-  const markup = ["HTML5", "Pug", "Mustache", "Handlebars", "CSS3", "SASS", "BEM", "Bulma", "Tailwindcss"]
-  const js = ["ES6", "TypeScript", "Vue.js", "Nuxt.js", "Svelte.js", "Sapper.js", "web components", "Storybook", "Vite", "Webpack", "RollUp"]
-  const tooling = ["Jest", "Cypress", "Puppeteer", "Netlify", "Vercel"]
+  const markup = ["HTML5", "CSS3", "Tailwind CSS", "DaisyUI"]
+  const js = ["ES6", "TypeScript", "Vue.js", "Pinia", "Nuxt.js", "Histoire", "Vite", "Vitest"]
+  const tooling = ["Jest", "Cypress",  "Netlify", "Vercel"]
+  const archive = ["Pug", "Mustache", "Handlebars", "SASS", "BEM", "Bulma",  "Sapper.js", "Puppeteer", "Svelte.js", "web components", "Storybook", "Webpack", "RollUp"]
 </script>
 
 <Article>
@@ -64,5 +65,9 @@
     <Tags labels={markup} />
     <Tags labels={js} />
     <Tags labels={tooling} />
+    <h3 class="font-lg uppercase font-bold leading-wide text-center mt-10 mb-2">Archive</h3>
+    <div class="text-sm">
+      <Tags labels={archive}  />
+    </div>
   </div>
 </WideArticle>

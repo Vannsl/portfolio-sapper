@@ -16,7 +16,7 @@
     <p class="md:px-4 text-tertiary dark:text-tertiary-light">
       Hi, nice to meet you!<br />My name is Vanessa. I am a Web Developer. I
       have an M.Sc in Media Informatics with a focus on
-      Human-Computer-Interaction. I'm Frontend Lead at
+      Human-Computer-Interaction. I'm the Head of Frontend at
       <OutgoingLink
         href="https://www.zavvy.io/?utm_source=vannsl&amp;utm_medium=referral&amp;utm_campaign=website&amp;utm_content=frontend"
         >Zavvy</OutgoingLink
@@ -27,13 +27,17 @@
         >Working Draft</OutgoingLink
       >, and <OutgoingLink href="https://ausbaufaehig-podcast.de/"
         >Ausbaufähig</OutgoingLink
-      >. I was the Chapter Leader for DACH of the <OutgoingLink
+      >. I'm a public speaker. I was the Chapter Leader for DACH of the <OutgoingLink
         href="https://www.vuevixens.org/">Frontend Foxes</OutgoingLink
       > until 2021. I was a member of the JS Kongress Program Committee 2020.<br
       /><br />
       Feel free to send me a message on <OutgoingLink
-        href="https://twitter.com/vannsl">Twitter</OutgoingLink
-      >.
+        href="https://x.com/vannsl">X</OutgoingLink
+      >, <OutgoingLink
+      href="https://elk.zone/hachyderm.io/@vanessa_otto">Mastodon</OutgoingLink
+    >, <OutgoingLink
+    href="https://www.linkedin.com/in/vannsl/?originalSubdomain=de">LinkedIn</OutgoingLink
+  > or   <a href="mailto:mail@vannsl.io" class="text-link dark:text-link-light hover:underline">email</a>.
     </p>
     <Spacing />
     <Spacing />

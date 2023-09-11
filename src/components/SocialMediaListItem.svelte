@@ -2,6 +2,7 @@
   export let href;
   export let id;
   export let d;
+  export let viewBox;
 </script>
 
 <li class="m-1 text-white">
@@ -19,7 +20,7 @@
       data-icon="{id}"
       role="img"
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 448 512"
+     {viewBox}
       class="inline-block w-6 h-6"
     >
       <path fill="currentColor" {d} />
