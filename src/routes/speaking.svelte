@@ -31,6 +31,15 @@
 
   export let speakingPast = [
     {
+      title: "Create and Style a Project Creation Form",
+      event: "Vue.js Forge",
+      eventSrc: "https://vuejsforge.com/episode-4",
+      videoSrc: "https://www.youtube.com/watch?v=7Sf9vp5hnJ0",
+      location: "online",
+      date: "02/08/2023",
+      emoji: "www",
+    },
+    {
       title: "Session about Rich Text Editors",
       event: "Vue.js Conf",
       eventSrc: "https://jscraftcamp.org/",
@@ -39,17 +48,19 @@
       emoji: "germany",
     },
     {
+      title: "Generate Social Images with DALL-E",
+      event: "Vue.js Forge",
+      eventSrc: "https://vuejsforge.com/episode-3",
+      videoSrc: "https://www.youtube.com/watch?v=seSh58Ya3IA",
+      location: "online",
+      date: "04/05/2023",
+      emoji: "www",
+    },
+    {
       title: "MC Vue.js Conf Berlin",
       event: "Vue.js Conf",
       location: "online",
       date: "05/10/2022",
-      emoji: "germany",
-    },
-    {
-      title: "TBA: FrontMUC",
-      event: "FrontMuc",
-      location: "online",
-      date: "20/10/2022",
       emoji: "germany",
     },
     {
