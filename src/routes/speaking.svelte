@@ -31,6 +31,14 @@
 
   export let speakingPast = [
     {
+      title: "Session about Rich Text Editors",
+      event: "Vue.js Conf",
+      eventSrc: "https://jscraftcamp.org/",
+      location: "Munich",
+      date: "30/07/2023",
+      emoji: "germany",
+    },
+    {
       title: "MC Vue.js Conf Berlin",
       event: "Vue.js Conf",
       location: "online",
