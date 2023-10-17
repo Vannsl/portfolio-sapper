@@ -65,7 +65,7 @@
     <Tags labels={markup} />
     <Tags labels={js} />
     <Tags labels={tooling} />
-    <h3 class="font-lg uppercase font-bold leading-wide text-center mt-10 mb-2">Archive</h3>
+    <h3 class="font-lg uppercase font-bold leading-wide text-center mt-10 mb-2 dark:text-gray-100">Archive</h3>
     <div class="text-sm">
       <Tags labels={archive}  />
     </div>

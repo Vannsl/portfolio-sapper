@@ -494,7 +494,7 @@
   <Spacing />
   <Article>
     <HeadlineTertiary>podcasts</HeadlineTertiary>
-    <p class="mb-4">
+    <p class="mb-4 dark:text-gray-100">
       Since Nov' 2020 I'm a proud Co-host of the <OutgoingLink
         href="https://workingdraft.de/">Working Draft</OutgoingLink
       > podcast. I host the Frontend Testing Podcast <OutgoingLink
