@@ -14,7 +14,7 @@
     />
 
     <p class="md:px-4 text-tertiary dark:text-tertiary-light">
-      Hi, nice to meet you!<br />My name is Vanessa. I am a Web Developer. I
+      Hi, nice to meet you!<br />My name is Vanessa. I am a Engineering Manager & Senior Frontend Developer. I
       have an M.Sc in Media Informatics with a focus on
       Human-Computer-Interaction. I'm the Head of Frontend at
       <OutgoingLink
