@@ -10,7 +10,7 @@
     <a href="mailto:mail@vannsl.io" class="hover:underline">mail@vannsl.io</a>
   </p>
   <p class="mb-2">
-    © Vanessa Otto 2015-2023
+    © Vanessa Otto 2015-2024
   </p>
   <p>
     <a href="/imprint" class="hover:underline">Imprint</a>
