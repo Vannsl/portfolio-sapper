@@ -13,12 +13,15 @@
   export let speakingUpcoming = [
     {
       title: "Unleashing the Power of AI: Integrating Tiptap, OpenAI, and Vue.js",
-      event: "MunichJS September Meetup",
-      eventSrc: "https://www.meetup.com/munichjs-user-group/events/295733864/",
-      location: "Alasco, Munich",
-      date: "13/09/2023",
-      emoji: "germany",
+      event: "Vuejs Amsterdam",
+      eventSrc: "https://vuejs.amsterdam/program",
+      location: "Amsterdam",
+      date: "29/02/2024",
+      emoji: "netherlands",
     },
+  ];
+
+  export let speakingPast = [
     {
       title: "Unleashing the Power of AI: Integrating Tiptap, OpenAI, and Vue.js",
       event: "vueday 2023",
@@ -27,9 +30,14 @@
       date: "10/11/2023",
       emoji: "italy",
     },
-  ];
-
-  export let speakingPast = [
+    {
+      title: "Unleashing the Power of AI: Integrating Tiptap, OpenAI, and Vue.js",
+      event: "MunichJS September Meetup",
+      eventSrc: "https://www.meetup.com/munichjs-user-group/events/295733864/",
+      location: "Alasco, Munich",
+      date: "13/09/2023",
+      emoji: "germany",
+    },
     {
       title: "Create and Style a Project Creation Form",
       event: "Vue.js Forge",
