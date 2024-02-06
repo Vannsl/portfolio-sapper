@@ -493,7 +493,7 @@
         <ListItem {item} />
       {/each}
     </List>
-    <details>
+    <details open>
       <summary>
         <h3
           class=" text-tertiary dark:text-tertiary-light tracking-wider inline ml-4"
@@ -519,7 +519,7 @@
         <ListItem {item} />
       {/each}
     </List>
-    <details>
+    <details open>
       <summary>
         <h3
           class=" text-tertiary dark:text-tertiary-light tracking-wider inline ml-4"
