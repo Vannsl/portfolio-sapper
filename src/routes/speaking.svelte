@@ -65,6 +65,14 @@
       emoji: "www",
     },
     {
+      title: "State Management with Composition API",
+      event: "Vue.js Toronto",
+      eventSrc: "https://www.youtube.com/watch?v=MgtQ9t74mhw",
+      location: "online",
+      date: "22/11/2021",
+      emoji: "www",
+    },
+    {
       title: "MC Vue.js Conf Berlin",
       event: "Vue.js Conf",
       location: "online",
@@ -86,6 +94,14 @@
       location: "Amsterdam",
       date: "03/06/2022",
       emoji: "netherlands",
+    },
+    {
+      title: "Modern State Management with Vue 3",
+      event: "GitNation",
+      eventSrc: "https://portal.gitnation.org/contents/modern-state-management-with-vue-3",
+      location: "online",
+      date: "21/10/2021",
+      emoji: "www",
     },
     {
       title: "Horizonterweiterung: State Management mit Composables",
@@ -383,6 +399,13 @@
       emoji: "videointerviews",
     },
     {
+      title: "Panel discussion: State Management",
+      src: "https://portal.gitnation.org/contents/panel-discussion",
+      publisher: "GitNation",
+      date: "21/10/2021",
+      emoji: "videointerviews",
+    },
+    {
       title:
         "Vue.js: Nicht nur für neue Projekte eine gute Wahl | Vanessa Böhner im Interview | JS Days 2019",
       src: "https://www.youtube.com/watch?v=-tm2o4NHme4",
@@ -396,6 +419,22 @@
   ];
 
   export let mentoringPast = [
+  {
+      title: "Create and Style a Project Creation Form",
+      event: "Vue.js Forge 4",
+      eventSrc: "https://www.youtube.com/watch?v=7Sf9vp5hnJ0",
+      location: "Remote",
+      date: "02/08/2023",
+      emoji: "mentoring",
+    },
+  {
+      title: "Generate Social Images with DALL-E",
+      event: "Vue.js Forge 3",
+      eventSrc: "https://www.youtube.com/watch?v=seSh58Ya3IA",
+      location: "Remote",
+      date: "03/05/2023",
+      emoji: "mentoring",
+    },
   {
       title: "State Management with Pinia",
       event: "Vue.js Conf",

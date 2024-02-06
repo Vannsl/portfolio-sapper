@@ -10,6 +10,13 @@
 
   export let publications = [
     {
+      title: "JavaScript: Modernes State Management ohne zusätzliche Library in Vue.js 3",
+      src: "https://www.heise.de/hintergrund/JavaScript-Modernes-State-Management-ohne-zusaetzliche-Library-in-Vue-js-3-6304606.html",
+      publisher: "heise online",
+      date: "11/01/2022",
+      emoji: "publications",
+    },
+    {
       title: "Webpacker, Vue 3, and TypeScript",
       src: "https://dev.to/vannsl/webpacker-vue-3-and-typescript-1i99",
       publisher: "dev.to",
