@@ -28,7 +28,7 @@ href="https://conf.vuejs.de/"
 >.<br
       /><br />
       Feel free to send a message on <OutgoingLink
-      href="https://elk.zone/hachyderm.io/@vanessa_otto">Mastodon</OutgoingLink
+      href="https://hachyderm.io/@vanessa_otto">Mastodon</OutgoingLink
     >, <OutgoingLink
     href="https://bsky.app/profile/vannsl.bsky.social">Bluesky</OutgoingLink
   >, <OutgoingLink

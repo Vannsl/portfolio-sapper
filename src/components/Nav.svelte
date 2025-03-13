@@ -93,6 +93,14 @@
         </li>
       {/each}
       <li>
+        <a
+          href="https://blog.vannsl.io"
+          class={linkClasses}
+        >
+          Blog
+        </a>
+      </li>
+      <li>
         <button
           aria-label="Activate dark mode"
           class:invisible={isLoading}
