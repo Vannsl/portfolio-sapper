@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>Vannsl | Imprint</title>
+  <title>Imprint | vannsl.io | Portfolio</title>
 </svelte:head>
 
 <article in:fadeIn out:fadeOut class="bg-secondary">
