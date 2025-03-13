@@ -350,6 +350,14 @@
 
   export let podcasts = [
     {
+      title: "Tiptap and Vue.js",
+      src: "https://www.youtube.com/watch?v=0ReI69W2cuc",
+      publisher: "DejaVue",
+      episode: "Folge 17",
+      date: "18/07/2024",
+      emoji: "podcast",
+    },
+    {
       title: "Svelte",
       src: "https://programmierbar.buzzsprout.com/176239/4238645-folge-64-svelte-mit-vanessa-bohner",
       publisher: "programmierbar",
