@@ -50,7 +50,7 @@
     },
     {
       title: "Session about Rich Text Editors",
-      event: "Vue.js Conf",
+      event: "JSCraftCamp",
       eventSrc: "https://jscraftcamp.org/",
       location: "Munich",
       date: "30/07/2023",
