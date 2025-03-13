@@ -27,9 +27,11 @@ href="https://conf.vuejs.de/"
 >VueJS Germany</OutgoingLink
 >.<br
       /><br />
-      Feel free to send me a message on <OutgoingLink
+      Feel free to send a message on <OutgoingLink
       href="https://elk.zone/hachyderm.io/@vanessa_otto">Mastodon</OutgoingLink
     >, <OutgoingLink
+    href="https://bsky.app/profile/vannsl.bsky.social">Bluesky</OutgoingLink
+  >, <OutgoingLink
     href="https://www.linkedin.com/in/vannsl/?originalSubdomain=de">LinkedIn</OutgoingLink
   > or   <a href="mailto:mail@vannsl.io" class="text-link dark:text-link-light hover:underline">email</a>.
     </p>
