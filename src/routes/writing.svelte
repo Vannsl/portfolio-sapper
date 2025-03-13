@@ -5,7 +5,6 @@
   import SmallHero from "../components/SmallHero.svelte";
   import List from "../components/List.svelte";
   import SimpleListItem from "../components/SimpleListItem.svelte";
-  import OutgoingLink from "../components/OutgoingLink.svelte";
   import Spacing from "../components/Spacing.svelte";
 
   export let publications = [
