@@ -488,7 +488,7 @@
 </script>
 
 <svelte:head>
-  <title>Vannsl | Speaking</title>
+  <title>Speaking | vannsl.io | Portfolio</title>
 </svelte:head>
 
 <main in:fadeIn out:fadeOut>

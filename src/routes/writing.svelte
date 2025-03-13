@@ -125,7 +125,7 @@
 </script>
 
 <svelte:head>
-  <title>Vannsl | Writing</title>
+  <title>Writing | vannsl.io | Portfolio</title>
 </svelte:head>
 
 <main in:fadeIn out:fadeOut>
