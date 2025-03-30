@@ -11,7 +11,7 @@
   }
   target="_blank"
   rel="noopener"
-  class="{color} hover:underline"
+  class="{color} underline"
 >
   <slot></slot><OutgoingSvg ></OutgoingSvg
 ></a>

@@ -33,7 +33,7 @@ href="https://conf.vuejs.de/"
     href="https://bsky.app/profile/vannsl.bsky.social">Bluesky</OutgoingLink
   >, <OutgoingLink
     href="https://www.linkedin.com/in/vannsl/?originalSubdomain=de">LinkedIn</OutgoingLink
-  > or   <a href="mailto:mail@vannsl.io" class="text-link dark:text-link-light hover:underline">email</a>.
+  > or   <a href="mailto:mail@vannsl.io" class="text-link dark:text-link-light underline">email</a>.
     </p>
     <Spacing />
     <Spacing />
