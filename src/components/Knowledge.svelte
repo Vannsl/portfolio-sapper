@@ -17,6 +17,7 @@
 
 <WideArticle>
   <Spacing></Spacing>
+  <h2 class="sm:text-2xl text-l text-center tracking-widest uppercase">What I do</h2>
   <Grid>
     <GridItem>
       <Circular>
