@@ -36,8 +36,7 @@
         </span>
       </div>
       <div
-        class="sm:my-6 my-2 mx-auto border dark:border-dark rounded-full w-full max-w-150-px sm:max-w-200-px sm:h-200-px h-150-px bg-center bg-cover shadow-md"
-        style="background-image: url('vannsl.jpg')"
+        class="sm:my-6 my-2 mx-auto border dark:border-dark rounded-full w-full max-w-150-px sm:max-w-200-px sm:h-200-px h-150-px bg-center bg-cover shadow-md profile-picture"
       />
       <h1 class="mt-5 sm:mt-10 text-3xl sm:text-5xl uppercase tracking-widest font-bold">
         Vanessa Otto

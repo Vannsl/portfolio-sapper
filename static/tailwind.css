@@ -47,3 +47,11 @@
 ::marker {
   color: #ed5a95;
 }
+
+.profile-picture {
+  background-image: image-set(
+    url("vannsl.avif") type("image/avif"),
+    url("vannsl.webp") type("image/webp"),
+    url("vannsl.jpg") type("image/jpeg")
+  );
+}
