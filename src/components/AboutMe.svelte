@@ -13,7 +13,7 @@
     />
 
     <p class="md:px-4 text-tertiary dark:text-tertiary-light">
-      Vanessa is a Senior Frontend Developer on the Design Systems Team at <OutgoingLink
+      Vanessa is a Staff Frontend Developer on the AI Workflow Catalog Team at <OutgoingLink
       href="https://gitlab.com/vanessaotto"
       >GitLab</OutgoingLink
     >, where she focuses on building and maintaining the foundational elements of GitLab's design system. Previously, she was the Head of Frontend at Zavvy.io, which was acquired by Deel in 2024. She holds an M.Sc in Media Informatics with a focus on Human-Computer Interaction and co-hosts two popular podcasts, <OutgoingLink href="https://www.workingdraft.de"

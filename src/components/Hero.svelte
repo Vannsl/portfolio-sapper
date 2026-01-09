@@ -42,7 +42,7 @@
         Vanessa Otto
       </h1>
       <p>
-        <span class="text-xl sm:text-2xl tracking-wide">Senior Frontend Developer, Public Speaker, Engineering Manager</span><br />
+        <span class="text-xl sm:text-2xl tracking-wide">Staff Frontend Developer, Public Speaker, Engineering Manager</span><br />
         <em class="text-xl sm:text-2xl">Munich, Germany</em>
       </p>
     </section>
